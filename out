@@ -1,0 +1,1498 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<table class="sportsPeriod">
+	  <tbody>
+		<tr>
+		  <td class="sportsPeriodTdCol1">Football - NFL</td>
+		  <td class="sportsPeriodTdCol2">
+			<select class="gameperiod" cfg="{level1:'Football', level2:'NFL'}">
+			  <option cfg="{level1:'Football', prdNo:0}" value="0">Game</option>
+			  <option cfg="{level1:'Football', prdNo:1}" value="1">1st Half</option>
+			  <option cfg="{level1:'Football', prdNo:2}" value="2">2nd Half</option>
+			</select>
+		  </td>
+		  <td class="sportsPeriodTdCol3"></td>
+		</tr>
+	  </tbody>
+	</table>
+
+	<table class="league">
+	<thead>
+	  <tr>
+		<th class="col_league bdt"></th>
+		<th class="col_rot bdl bdt">Rot.</th>
+		<th class="col_team bdl bdt" colspan="2">Team</th>
+		<th class="col_spread bdl bdt" colspan="4">Spread</th>
+		<th class="col_money_line bdl bdt" colspan="3">Money Line</th>
+		<th class="col_total_points bdl bdt" colspan="5">Total Points</th>
+		<th class="col_team_points bdl bdt" colspan="9">Team Points</th>
+		<th class="col_add_mrkt bdl bdt"></th>
+	  </tr>
+	</thead>
+
+		<tbody class="date">
+		  <tr>
+			<td colspan="27" class="bdt">Thursday, Nov 20, 2014 - NFL Football Game</td>
+		  </tr>
+		</tbody>
+			<tbody class="event">
+			    
+  
+<tr class="h2hSeq firstline" seq="105571966">
+  <td rowspan="3" class="col_time bdevtt">08:25 PM</td>
+  <td class="col_rotno bdevtt" evcfg="{'lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'Kansas City Chiefs','crid':'Foot-NFL Th Kansas City C@Oakland Raide','gnum':283013489,'gmdt':'11\/20\/2014 20:25:01','ltm':'Kansas City Chiefs','rtm':'Oakland Raiders','dltm':'Kansas City Chiefs','drtm':'Oakland Raiders','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I','prvntpntby':false}">109</td>
+  <td class="col_teamname bdevtt">Kansas City Chiefs </td>
+  <td class="info bdevtt">
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013489|S|SHW|Kansas City Chiefs','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SHW','tmId':'Kansas City Chiefs'},'a':-115,'d':1.869,'h':-7,'dh':'-7','aorg':-115,'dorg':1.869,'horg':-7,'dhorg':'-7','av':0,'dv':0,'rno':109}" value="G|Football|NFL|0|POSTUP|.|283013489|S|SHW|Kansas City Chiefs" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">-7</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-115,'d':1.869}">-115</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013489|M|MLHW|Kansas City Chiefs','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLHW','tmId':'Kansas City Chiefs'},'a':-355,'d':1.281,'h':0,'dh':'','aorg':-355,'dorg':1.281,'horg':0,'dhorg':'','av':0,'dv':0,'rno':109}" value="G|Football|NFL|0|POSTUP|.|283013489|M|MLHW|Kansas City Chiefs" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':-355,'d':1.281}">-355</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013489|L|TTOV|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTOV','tmId':''},'a':-110,'d':1.909,'h':42.5,'dh':'42&frac12;','aorg':-110,'dorg':1.909,'horg':42.5,'dhorg':'42&frac12;','av':0,'dv':0,'rno':110}" value="G|Football|NFL|0|POSTUP|.|283013489|L|TTOV|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Ov</td>
+  <td class="hdcp bdevtt ">42&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt"> 	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+		<div class="propMkt collapsed" cfg="{'type':'h2h','lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'Kansas City Chiefs','crid':'Foot-NFL Th Kansas City C@Oakland Raide','gmdt':'11\/20\/2014 20:25:01','ltm':'Kansas City Chiefs','rtm':'Oakland Raiders','dltm':'Kansas City Chiefs','drtm':'Oakland Raiders','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I'}"></div>
+  </td>
+</tr>
+  
+<tr class="otherline">
+  <td class="col_rotno bdevtt">110</td>
+  <td class="col_teamname bdevtt">Oakland Raiders </td>
+  <td class="info bdevtt"></td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013489|S|SAW|Oakland Raiders','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SAW','tmId':'Oakland Raiders'},'a':-105,'d':1.952,'h':7,'dh':'+7','aorg':-105,'dorg':1.952,'horg':7,'dhorg':'+7','av':0,'dv':0,'rno':110}" value="G|Football|NFL|0|POSTUP|.|283013489|S|SAW|Oakland Raiders" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">+7</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-105,'d':1.952}">-105</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span> 	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013489|M|MLAW|Oakland Raiders','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLAW','tmId':'Oakland Raiders'},'a':295,'d':3.95,'h':0,'dh':'','aorg':295,'dorg':3.95,'horg':0,'dhorg':'','av':0,'dv':0,'rno':110}" value="G|Football|NFL|0|POSTUP|.|283013489|M|MLAW|Oakland Raiders" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':295,'d':3.95}">+295</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013489|L|TTUN|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTUN','tmId':''},'a':-110,'d':1.909,'h':42.5,'dh':'42&frac12;','aorg':-110,'dorg':1.909,'horg':42.5,'dhorg':'42&frac12;','av':0,'dv':0,'rno':110}" value="G|Football|NFL|0|POSTUP|.|283013489|L|TTUN|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Un</td>
+  <td class="hdcp bdevtt ">42&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="addMkt">
+  <td colspan="22">
+  </td>
+</tr>
+			</tbody>
+		<tbody class="date">
+		  <tr>
+			<td colspan="27" class="bdt">Sunday, Nov 23, 2014 - NFL Football Game</td>
+		  </tr>
+		</tbody>
+			<tbody class="event">
+			    
+  
+<tr class="h2hSeq firstline" seq="105571966">
+  <td rowspan="3" class="col_time bdevtt">01:00 PM</td>
+  <td class="col_rotno bdevtt" evcfg="{'lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'Atlanta Falcons','crid':'Foot-NFL Su Cleveland Bro@Atlanta Falco','gnum':283013471,'gmdt':'11\/23\/2014 13:00:01','ltm':'Cleveland Browns','rtm':'Atlanta Falcons','dltm':'Cleveland Browns','drtm':'Atlanta Falcons','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I','prvntpntby':true}">251</td>
+  <td class="col_teamname bdevtt">Cleveland Browns </td>
+  <td class="info bdevtt">
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013471|S|SHW|Cleveland Browns','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SHW','tmId':'Cleveland Browns'},'a':100,'d':2,'h':3,'dh':'+3','aorg':100,'dorg':2,'horg':3,'dhorg':'+3','av':0,'dv':0,'rno':251}" value="G|Football|NFL|0|POSTUP|.|283013471|S|SHW|Cleveland Browns" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">+3</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':100,'d':2}">+100</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013471|M|MLHW|Cleveland Browns','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLHW','tmId':'Cleveland Browns'},'a':155,'d':2.55,'h':0,'dh':'','aorg':155,'dorg':2.55,'horg':0,'dhorg':'','av':0,'dv':0,'rno':251}" value="G|Football|NFL|0|POSTUP|.|283013471|M|MLHW|Cleveland Browns" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':155,'d':2.55}">+155</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013471|L|TTOV|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTOV','tmId':''},'a':-110,'d':1.909,'h':47,'dh':'47','aorg':-110,'dorg':1.909,'horg':47,'dhorg':'47','av':0,'dv':0,'rno':252}" value="G|Football|NFL|0|POSTUP|.|283013471|L|TTOV|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Ov</td>
+  <td class="hdcp bdevtt ">47</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt"> 	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="otherline">
+  <td class="col_rotno bdevtt">252</td>
+  <td class="col_teamname bdevtt">Atlanta Falcons </td>
+  <td class="info bdevtt"></td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013471|S|SAW|Atlanta Falcons','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SAW','tmId':'Atlanta Falcons'},'a':-120,'d':1.833,'h':-3,'dh':'-3','aorg':-120,'dorg':1.833,'horg':-3,'dhorg':'-3','av':0,'dv':0,'rno':252}" value="G|Football|NFL|0|POSTUP|.|283013471|S|SAW|Atlanta Falcons" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">-3</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-120,'d':1.833}">-120</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span> 	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013471|M|MLAW|Atlanta Falcons','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLAW','tmId':'Atlanta Falcons'},'a':-175,'d':1.571,'h':0,'dh':'','aorg':-175,'dorg':1.571,'horg':0,'dhorg':'','av':0,'dv':0,'rno':252}" value="G|Football|NFL|0|POSTUP|.|283013471|M|MLAW|Atlanta Falcons" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':-175,'d':1.571}">-175</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013471|L|TTUN|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTUN','tmId':''},'a':-110,'d':1.909,'h':47,'dh':'47','aorg':-110,'dorg':1.909,'horg':47,'dhorg':'47','av':0,'dv':0,'rno':252}" value="G|Football|NFL|0|POSTUP|.|283013471|L|TTUN|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Un</td>
+  <td class="hdcp bdevtt ">47</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="addMkt">
+  <td colspan="22">
+  </td>
+</tr>
+			</tbody>
+			<tbody class="event">
+			    
+  
+<tr class="h2hSeq firstline" seq="105571966">
+  <td rowspan="3" class="col_time bdevtt">01:00 PM</td>
+  <td class="col_rotno bdevtt" evcfg="{'lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'Philadelphia Eagles','crid':'Foot-NFL Su Tennessee Tit@Philadelphia','gnum':283013472,'gmdt':'11\/23\/2014 13:00:01','ltm':'Tennessee Titans','rtm':'Philadelphia Eagles','dltm':'Tennessee Titans','drtm':'Philadelphia Eagles','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I','prvntpntby':true}">253</td>
+  <td class="col_teamname bdevtt">Tennessee Titans </td>
+  <td class="info bdevtt">
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013472|S|SHW|Tennessee Titans','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SHW','tmId':'Tennessee Titans'},'a':-110,'d':1.909,'h':11,'dh':'+11','aorg':-110,'dorg':1.909,'horg':11,'dhorg':'+11','av':0,'dv':0,'rno':253}" value="G|Football|NFL|0|POSTUP|.|283013472|S|SHW|Tennessee Titans" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">+11</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="odds bdevtt moneylineodds " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013472|L|TTOV|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTOV','tmId':''},'a':-110,'d':1.909,'h':48.5,'dh':'48&frac12;','aorg':-110,'dorg':1.909,'horg':48.5,'dhorg':'48&frac12;','av':0,'dv':0,'rno':254}" value="G|Football|NFL|0|POSTUP|.|283013472|L|TTOV|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Ov</td>
+  <td class="hdcp bdevtt ">48&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt"> 	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="otherline">
+  <td class="col_rotno bdevtt">254</td>
+  <td class="col_teamname bdevtt">Philadelphia Eagles </td>
+  <td class="info bdevtt"></td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013472|S|SAW|Philadelphia Eagles','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SAW','tmId':'Philadelphia Eagles'},'a':-110,'d':1.909,'h':-11,'dh':'-11','aorg':-110,'dorg':1.909,'horg':-11,'dhorg':'-11','av':0,'dv':0,'rno':254}" value="G|Football|NFL|0|POSTUP|.|283013472|S|SAW|Philadelphia Eagles" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">-11</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span> 	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="odds bdevtt moneylineodds " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013472|L|TTUN|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTUN','tmId':''},'a':-110,'d':1.909,'h':48.5,'dh':'48&frac12;','aorg':-110,'dorg':1.909,'horg':48.5,'dhorg':'48&frac12;','av':0,'dv':0,'rno':254}" value="G|Football|NFL|0|POSTUP|.|283013472|L|TTUN|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Un</td>
+  <td class="hdcp bdevtt ">48&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="addMkt">
+  <td colspan="22">
+  </td>
+</tr>
+			</tbody>
+			<tbody class="event">
+			    
+  
+<tr class="h2hSeq firstline" seq="105571966">
+  <td rowspan="3" class="col_time bdevtt">01:00 PM</td>
+  <td class="col_rotno bdevtt" evcfg="{'lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'New England Patriots','crid':'Foot-NFL Su Detroit Lions@New England P','gnum':283013473,'gmdt':'11\/23\/2014 13:00:01','ltm':'Detroit Lions','rtm':'New England Patriots','dltm':'Detroit Lions','drtm':'New England Patriots','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I','prvntpntby':true}">255</td>
+  <td class="col_teamname bdevtt">Detroit Lions </td>
+  <td class="info bdevtt">
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013473|S|SHW|Detroit Lions','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SHW','tmId':'Detroit Lions'},'a':-110,'d':1.909,'h':7,'dh':'+7','aorg':-110,'dorg':1.909,'horg':7,'dhorg':'+7','av':0,'dv':0,'rno':255}" value="G|Football|NFL|0|POSTUP|.|283013473|S|SHW|Detroit Lions" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">+7</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013473|M|MLHW|Detroit Lions','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLHW','tmId':'Detroit Lions'},'a':270,'d':3.7,'h':0,'dh':'','aorg':270,'dorg':3.7,'horg':0,'dhorg':'','av':0,'dv':0,'rno':255}" value="G|Football|NFL|0|POSTUP|.|283013473|M|MLHW|Detroit Lions" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':270,'d':3.7}">+270</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013473|L|TTOV|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTOV','tmId':''},'a':-110,'d':1.909,'h':48,'dh':'48','aorg':-110,'dorg':1.909,'horg':48,'dhorg':'48','av':0,'dv':0,'rno':256}" value="G|Football|NFL|0|POSTUP|.|283013473|L|TTOV|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Ov</td>
+  <td class="hdcp bdevtt ">48</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt"> 	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="otherline">
+  <td class="col_rotno bdevtt">256</td>
+  <td class="col_teamname bdevtt">New England Patriots </td>
+  <td class="info bdevtt"></td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013473|S|SAW|New England Patriots','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SAW','tmId':'New England Patriots'},'a':-110,'d':1.909,'h':-7,'dh':'-7','aorg':-110,'dorg':1.909,'horg':-7,'dhorg':'-7','av':0,'dv':0,'rno':256}" value="G|Football|NFL|0|POSTUP|.|283013473|S|SAW|New England Patriots" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">-7</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span> 	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013473|M|MLAW|New England Patriots','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLAW','tmId':'New England Patriots'},'a':-325,'d':1.307,'h':0,'dh':'','aorg':-325,'dorg':1.307,'horg':0,'dhorg':'','av':0,'dv':0,'rno':256}" value="G|Football|NFL|0|POSTUP|.|283013473|M|MLAW|New England Patriots" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':-325,'d':1.307}">-325</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013473|L|TTUN|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTUN','tmId':''},'a':-110,'d':1.909,'h':48,'dh':'48','aorg':-110,'dorg':1.909,'horg':48,'dhorg':'48','av':0,'dv':0,'rno':256}" value="G|Football|NFL|0|POSTUP|.|283013473|L|TTUN|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Un</td>
+  <td class="hdcp bdevtt ">48</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="addMkt">
+  <td colspan="22">
+  </td>
+</tr>
+			</tbody>
+			<tbody class="event">
+			    
+  
+<tr class="h2hSeq firstline" seq="105571966">
+  <td rowspan="3" class="col_time bdevtt">01:00 PM</td>
+  <td class="col_rotno bdevtt" evcfg="{'lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'Green Bay Packers','crid':'Foot-NFL Su Green Bay Pac@Minnesota Vik','gnum':283013474,'gmdt':'11\/23\/2014 13:00:01','ltm':'Green Bay Packers','rtm':'Minnesota Vikings','dltm':'Green Bay Packers','drtm':'Minnesota Vikings','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I','prvntpntby':true}">257</td>
+  <td class="col_teamname bdevtt">Green Bay Packers </td>
+  <td class="info bdevtt">
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013474|S|SHW|Green Bay Packers','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SHW','tmId':'Green Bay Packers'},'a':-110,'d':1.909,'h':-9.5,'dh':'-9&frac12;','aorg':-110,'dorg':1.909,'horg':-9.5,'dhorg':'-9&frac12;','av':0,'dv':0,'rno':257}" value="G|Football|NFL|0|POSTUP|.|283013474|S|SHW|Green Bay Packers" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">-9&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013474|M|MLHW|Green Bay Packers','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLHW','tmId':'Green Bay Packers'},'a':-475,'d':1.21,'h':0,'dh':'','aorg':-475,'dorg':1.21,'horg':0,'dhorg':'','av':0,'dv':0,'rno':257}" value="G|Football|NFL|0|POSTUP|.|283013474|M|MLHW|Green Bay Packers" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':-475,'d':1.21}">-475</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013474|L|TTOV|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTOV','tmId':''},'a':-110,'d':1.909,'h':48.5,'dh':'48&frac12;','aorg':-110,'dorg':1.909,'horg':48.5,'dhorg':'48&frac12;','av':0,'dv':0,'rno':258}" value="G|Football|NFL|0|POSTUP|.|283013474|L|TTOV|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Ov</td>
+  <td class="hdcp bdevtt ">48&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt"> 	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="otherline">
+  <td class="col_rotno bdevtt">258</td>
+  <td class="col_teamname bdevtt">Minnesota Vikings </td>
+  <td class="info bdevtt"></td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013474|S|SAW|Minnesota Vikings','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SAW','tmId':'Minnesota Vikings'},'a':-110,'d':1.909,'h':9.5,'dh':'+9&frac12;','aorg':-110,'dorg':1.909,'horg':9.5,'dhorg':'+9&frac12;','av':0,'dv':0,'rno':258}" value="G|Football|NFL|0|POSTUP|.|283013474|S|SAW|Minnesota Vikings" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">+9&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span> 	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013474|M|MLAW|Minnesota Vikings','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLAW','tmId':'Minnesota Vikings'},'a':400,'d':5,'h':0,'dh':'','aorg':400,'dorg':5,'horg':0,'dhorg':'','av':0,'dv':0,'rno':258}" value="G|Football|NFL|0|POSTUP|.|283013474|M|MLAW|Minnesota Vikings" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':400,'d':5}">+400</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013474|L|TTUN|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTUN','tmId':''},'a':-110,'d':1.909,'h':48.5,'dh':'48&frac12;','aorg':-110,'dorg':1.909,'horg':48.5,'dhorg':'48&frac12;','av':0,'dv':0,'rno':258}" value="G|Football|NFL|0|POSTUP|.|283013474|L|TTUN|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Un</td>
+  <td class="hdcp bdevtt ">48&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="addMkt">
+  <td colspan="22">
+  </td>
+</tr>
+			</tbody>
+			<tbody class="event">
+			    
+  
+<tr class="h2hSeq firstline" seq="105571966">
+  <td rowspan="3" class="col_time bdevtt">01:00 PM</td>
+  <td class="col_rotno bdevtt" evcfg="{'lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'Indianapolis Colts','crid':'Foot-NFL Su Jacksonville @Indianapolis','gnum':283013475,'gmdt':'11\/23\/2014 13:00:01','ltm':'Jacksonville Jaguars','rtm':'Indianapolis Colts','dltm':'Jacksonville Jaguars','drtm':'Indianapolis Colts','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I','prvntpntby':true}">259</td>
+  <td class="col_teamname bdevtt">Jacksonville Jaguars </td>
+  <td class="info bdevtt">
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013475|S|SHW|Jacksonville Jaguars','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SHW','tmId':'Jacksonville Jaguars'},'a':-115,'d':1.869,'h':14,'dh':'+14','aorg':-115,'dorg':1.869,'horg':14,'dhorg':'+14','av':0,'dv':0,'rno':259}" value="G|Football|NFL|0|POSTUP|.|283013475|S|SHW|Jacksonville Jaguars" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">+14</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-115,'d':1.869}">-115</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013475|M|MLHW|Jacksonville Jaguars','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLHW','tmId':'Jacksonville Jaguars'},'a':700,'d':8,'h':0,'dh':'','aorg':700,'dorg':8,'horg':0,'dhorg':'','av':0,'dv':0,'rno':259}" value="G|Football|NFL|0|POSTUP|.|283013475|M|MLHW|Jacksonville Jaguars" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':700,'d':8}">+700</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013475|L|TTOV|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTOV','tmId':''},'a':-110,'d':1.909,'h':50.5,'dh':'50&frac12;','aorg':-110,'dorg':1.909,'horg':50.5,'dhorg':'50&frac12;','av':0,'dv':0,'rno':260}" value="G|Football|NFL|0|POSTUP|.|283013475|L|TTOV|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Ov</td>
+  <td class="hdcp bdevtt ">50&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt"> 	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+		<div class="propMkt collapsed" cfg="{'type':'h2h','lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'Indianapolis Colts','crid':'Foot-NFL Su Jacksonville @Indianapolis','gmdt':'11\/23\/2014 13:00:01','ltm':'Jacksonville Jaguars','rtm':'Indianapolis Colts','dltm':'Jacksonville Jaguars','drtm':'Indianapolis Colts','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I'}"></div>
+  </td>
+</tr>
+  
+<tr class="otherline">
+  <td class="col_rotno bdevtt">260</td>
+  <td class="col_teamname bdevtt">Indianapolis Colts </td>
+  <td class="info bdevtt"></td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013475|S|SAW|Indianapolis Colts','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SAW','tmId':'Indianapolis Colts'},'a':-105,'d':1.952,'h':-14,'dh':'-14','aorg':-105,'dorg':1.952,'horg':-14,'dhorg':'-14','av':0,'dv':0,'rno':260}" value="G|Football|NFL|0|POSTUP|.|283013475|S|SAW|Indianapolis Colts" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">-14</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-105,'d':1.952}">-105</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span> 	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013475|M|MLAW|Indianapolis Colts','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLAW','tmId':'Indianapolis Colts'},'a':-950,'d':1.105,'h':0,'dh':'','aorg':-950,'dorg':1.105,'horg':0,'dhorg':'','av':0,'dv':0,'rno':260}" value="G|Football|NFL|0|POSTUP|.|283013475|M|MLAW|Indianapolis Colts" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':-950,'d':1.105}">-950</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013475|L|TTUN|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTUN','tmId':''},'a':-110,'d':1.909,'h':50.5,'dh':'50&frac12;','aorg':-110,'dorg':1.909,'horg':50.5,'dhorg':'50&frac12;','av':0,'dv':0,'rno':260}" value="G|Football|NFL|0|POSTUP|.|283013475|L|TTUN|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Un</td>
+  <td class="hdcp bdevtt ">50&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="addMkt">
+  <td colspan="22">
+  </td>
+</tr>
+			</tbody>
+			<tbody class="event">
+			    
+  
+<tr class="h2hSeq firstline" seq="105571966">
+  <td rowspan="3" class="col_time bdevtt">01:00 PM</td>
+  <td class="col_rotno bdevtt" evcfg="{'lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'Houston Texans','crid':'Foot-NFL Su Cincinnati Be@Houston Texan','gnum':283013476,'gmdt':'11\/23\/2014 13:00:01','ltm':'Cincinnati Bengals','rtm':'Houston Texans','dltm':'Cincinnati Bengals','drtm':'Houston Texans','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I','prvntpntby':true}">261</td>
+  <td class="col_teamname bdevtt">Cincinnati Bengals </td>
+  <td class="info bdevtt">
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013476|S|SHW|Cincinnati Bengals','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SHW','tmId':'Cincinnati Bengals'},'a':100,'d':2,'h':1,'dh':'+1','aorg':100,'dorg':2,'horg':1,'dhorg':'+1','av':0,'dv':0,'rno':261}" value="G|Football|NFL|0|POSTUP|.|283013476|S|SHW|Cincinnati Bengals" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">+1</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':100,'d':2}">+100</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013476|M|MLHW|Cincinnati Bengals','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLHW','tmId':'Cincinnati Bengals'},'a':100,'d':2,'h':0,'dh':'','aorg':100,'dorg':2,'horg':0,'dhorg':'','av':0,'dv':0,'rno':261}" value="G|Football|NFL|0|POSTUP|.|283013476|M|MLHW|Cincinnati Bengals" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':100,'d':2}">+100</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013476|L|TTOV|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTOV','tmId':''},'a':-110,'d':1.909,'h':43.5,'dh':'43&frac12;','aorg':-110,'dorg':1.909,'horg':43.5,'dhorg':'43&frac12;','av':0,'dv':0,'rno':262}" value="G|Football|NFL|0|POSTUP|.|283013476|L|TTOV|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Ov</td>
+  <td class="hdcp bdevtt ">43&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt"> 	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+		<div class="propMkt collapsed" cfg="{'type':'h2h','lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'Houston Texans','crid':'Foot-NFL Su Cincinnati Be@Houston Texan','gmdt':'11\/23\/2014 13:00:01','ltm':'Cincinnati Bengals','rtm':'Houston Texans','dltm':'Cincinnati Bengals','drtm':'Houston Texans','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I'}"></div>
+  </td>
+</tr>
+  
+<tr class="otherline">
+  <td class="col_rotno bdevtt">262</td>
+  <td class="col_teamname bdevtt">Houston Texans </td>
+  <td class="info bdevtt"></td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013476|S|SAW|Houston Texans','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SAW','tmId':'Houston Texans'},'a':-120,'d':1.833,'h':-1,'dh':'-1','aorg':-120,'dorg':1.833,'horg':-1,'dhorg':'-1','av':0,'dv':0,'rno':262}" value="G|Football|NFL|0|POSTUP|.|283013476|S|SAW|Houston Texans" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">-1</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-120,'d':1.833}">-120</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span> 	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013476|M|MLAW|Houston Texans','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLAW','tmId':'Houston Texans'},'a':-120,'d':1.833,'h':0,'dh':'','aorg':-120,'dorg':1.833,'horg':0,'dhorg':'','av':0,'dv':0,'rno':262}" value="G|Football|NFL|0|POSTUP|.|283013476|M|MLAW|Houston Texans" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':-120,'d':1.833}">-120</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013476|L|TTUN|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTUN','tmId':''},'a':-110,'d':1.909,'h':43.5,'dh':'43&frac12;','aorg':-110,'dorg':1.909,'horg':43.5,'dhorg':'43&frac12;','av':0,'dv':0,'rno':262}" value="G|Football|NFL|0|POSTUP|.|283013476|L|TTUN|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Un</td>
+  <td class="hdcp bdevtt ">43&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="addMkt">
+  <td colspan="22">
+  </td>
+</tr>
+			</tbody>
+			<tbody class="event">
+			    
+  
+<tr class="h2hSeq firstline" seq="105571966">
+  <td rowspan="3" class="col_time bdevtt">01:00 PM</td>
+  <td class="col_rotno bdevtt" evcfg="{'lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'Buffalo Bills','crid':'Foot-NFL Su New York Jets@Buffalo Bills','gnum':283013477,'gmdt':'11\/23\/2014 13:00:01','ltm':'New York Jets','rtm':'Buffalo Bills','dltm':'New York Jets','drtm':'Buffalo Bills','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I','prvntpntby':true}">263</td>
+  <td class="col_teamname bdevtt">New York Jets </td>
+  <td class="info bdevtt">
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013477|S|SHW|New York Jets','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SHW','tmId':'New York Jets'},'a':-115,'d':1.869,'h':4,'dh':'+4','aorg':-115,'dorg':1.869,'horg':4,'dhorg':'+4','av':0,'dv':0,'rno':263}" value="G|Football|NFL|0|POSTUP|.|283013477|S|SHW|New York Jets" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">+4</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-115,'d':1.869}">-115</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013477|M|MLHW|New York Jets','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLHW','tmId':'New York Jets'},'a':180,'d':2.8,'h':0,'dh':'','aorg':180,'dorg':2.8,'horg':0,'dhorg':'','av':0,'dv':0,'rno':263}" value="G|Football|NFL|0|POSTUP|.|283013477|M|MLHW|New York Jets" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':180,'d':2.8}">+180</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013477|L|TTOV|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTOV','tmId':''},'a':-110,'d':1.909,'h':39,'dh':'39','aorg':-110,'dorg':1.909,'horg':39,'dhorg':'39','av':0,'dv':0,'rno':264}" value="G|Football|NFL|0|POSTUP|.|283013477|L|TTOV|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Ov</td>
+  <td class="hdcp bdevtt ">39</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt"> 	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="otherline">
+  <td class="col_rotno bdevtt">264</td>
+  <td class="col_teamname bdevtt">Buffalo Bills </td>
+  <td class="info bdevtt"></td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013477|S|SAW|Buffalo Bills','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SAW','tmId':'Buffalo Bills'},'a':-105,'d':1.952,'h':-4,'dh':'-4','aorg':-105,'dorg':1.952,'horg':-4,'dhorg':'-4','av':0,'dv':0,'rno':264}" value="G|Football|NFL|0|POSTUP|.|283013477|S|SAW|Buffalo Bills" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">-4</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-105,'d':1.952}">-105</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span> 	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013477|M|MLAW|Buffalo Bills','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLAW','tmId':'Buffalo Bills'},'a':-210,'d':1.476,'h':0,'dh':'','aorg':-210,'dorg':1.476,'horg':0,'dhorg':'','av':0,'dv':0,'rno':264}" value="G|Football|NFL|0|POSTUP|.|283013477|M|MLAW|Buffalo Bills" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':-210,'d':1.476}">-210</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013477|L|TTUN|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTUN','tmId':''},'a':-110,'d':1.909,'h':39,'dh':'39','aorg':-110,'dorg':1.909,'horg':39,'dhorg':'39','av':0,'dv':0,'rno':264}" value="G|Football|NFL|0|POSTUP|.|283013477|L|TTUN|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Un</td>
+  <td class="hdcp bdevtt ">39</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="addMkt">
+  <td colspan="22">
+  </td>
+</tr>
+			</tbody>
+			<tbody class="event">
+			    
+  
+<tr class="h2hSeq firstline" seq="105571966">
+  <td rowspan="3" class="col_time bdevtt">01:00 PM</td>
+  <td class="col_rotno bdevtt" evcfg="{'lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'Chicago Bears','crid':'Foot-NFL Su Tampa Bay Buc@Chicago Bears','gnum':283013478,'gmdt':'11\/23\/2014 13:00:01','ltm':'Tampa Bay Buccaneers','rtm':'Chicago Bears','dltm':'Tampa Bay Buccaneers','drtm':'Chicago Bears','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I','prvntpntby':true}">265</td>
+  <td class="col_teamname bdevtt">Tampa Bay Buccaneers </td>
+  <td class="info bdevtt">
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013478|S|SHW|Tampa Bay Buccaneers','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SHW','tmId':'Tampa Bay Buccaneers'},'a':-110,'d':1.909,'h':5.5,'dh':'+5&frac12;','aorg':-110,'dorg':1.909,'horg':5.5,'dhorg':'+5&frac12;','av':0,'dv':0,'rno':265}" value="G|Football|NFL|0|POSTUP|.|283013478|S|SHW|Tampa Bay Buccaneers" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">+5&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013478|M|MLHW|Tampa Bay Buccaneers','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLHW','tmId':'Tampa Bay Buccaneers'},'a':200,'d':3,'h':0,'dh':'','aorg':200,'dorg':3,'horg':0,'dhorg':'','av':0,'dv':0,'rno':265}" value="G|Football|NFL|0|POSTUP|.|283013478|M|MLHW|Tampa Bay Buccaneers" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':200,'d':3}">+200</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013478|L|TTOV|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTOV','tmId':''},'a':-105,'d':1.952,'h':46.5,'dh':'46&frac12;','aorg':-105,'dorg':1.952,'horg':46.5,'dhorg':'46&frac12;','av':0,'dv':0,'rno':266}" value="G|Football|NFL|0|POSTUP|.|283013478|L|TTOV|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Ov</td>
+  <td class="hdcp bdevtt ">46&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-105,'d':1.952}">-105</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt"> 	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="otherline">
+  <td class="col_rotno bdevtt">266</td>
+  <td class="col_teamname bdevtt">Chicago Bears </td>
+  <td class="info bdevtt"></td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013478|S|SAW|Chicago Bears','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SAW','tmId':'Chicago Bears'},'a':-110,'d':1.909,'h':-5.5,'dh':'-5&frac12;','aorg':-110,'dorg':1.909,'horg':-5.5,'dhorg':'-5&frac12;','av':0,'dv':0,'rno':266}" value="G|Football|NFL|0|POSTUP|.|283013478|S|SAW|Chicago Bears" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">-5&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span> 	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013478|M|MLAW|Chicago Bears','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLAW','tmId':'Chicago Bears'},'a':-240,'d':1.416,'h':0,'dh':'','aorg':-240,'dorg':1.416,'horg':0,'dhorg':'','av':0,'dv':0,'rno':266}" value="G|Football|NFL|0|POSTUP|.|283013478|M|MLAW|Chicago Bears" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':-240,'d':1.416}">-240</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013478|L|TTUN|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTUN','tmId':''},'a':-115,'d':1.869,'h':46.5,'dh':'46&frac12;','aorg':-115,'dorg':1.869,'horg':46.5,'dhorg':'46&frac12;','av':0,'dv':0,'rno':266}" value="G|Football|NFL|0|POSTUP|.|283013478|L|TTUN|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Un</td>
+  <td class="hdcp bdevtt ">46&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-115,'d':1.869}">-115</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="addMkt">
+  <td colspan="22">
+  </td>
+</tr>
+			</tbody>
+			<tbody class="event">
+			    
+  
+<tr class="h2hSeq firstline" seq="105571966">
+  <td rowspan="3" class="col_time bdevtt">04:05 PM</td>
+  <td class="col_rotno bdevtt" evcfg="{'lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'Seattle Seahawks','crid':'Foot-NFL Su Arizona Cardi@Seattle Seaha','gnum':283013479,'gmdt':'11\/23\/2014 16:05:01','ltm':'Arizona Cardinals','rtm':'Seattle Seahawks','dltm':'Arizona Cardinals','drtm':'Seattle Seahawks','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I','prvntpntby':true}">267</td>
+  <td class="col_teamname bdevtt">Arizona Cardinals </td>
+  <td class="info bdevtt">
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013479|S|SHW|Arizona Cardinals','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SHW','tmId':'Arizona Cardinals'},'a':-110,'d':1.909,'h':6.5,'dh':'+6&frac12;','aorg':-110,'dorg':1.909,'horg':6.5,'dhorg':'+6&frac12;','av':0,'dv':0,'rno':267}" value="G|Football|NFL|0|POSTUP|.|283013479|S|SHW|Arizona Cardinals" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">+6&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013479|M|MLHW|Arizona Cardinals','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLHW','tmId':'Arizona Cardinals'},'a':230,'d':3.3,'h':0,'dh':'','aorg':230,'dorg':3.3,'horg':0,'dhorg':'','av':0,'dv':0,'rno':267}" value="G|Football|NFL|0|POSTUP|.|283013479|M|MLHW|Arizona Cardinals" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':230,'d':3.3}">+230</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013479|L|TTOV|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTOV','tmId':''},'a':-110,'d':1.909,'h':42,'dh':'42','aorg':-110,'dorg':1.909,'horg':42,'dhorg':'42','av':0,'dv':0,'rno':268}" value="G|Football|NFL|0|POSTUP|.|283013479|L|TTOV|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Ov</td>
+  <td class="hdcp bdevtt ">42</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt"> 	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="otherline">
+  <td class="col_rotno bdevtt">268</td>
+  <td class="col_teamname bdevtt">Seattle Seahawks </td>
+  <td class="info bdevtt"></td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013479|S|SAW|Seattle Seahawks','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SAW','tmId':'Seattle Seahawks'},'a':-110,'d':1.909,'h':-6.5,'dh':'-6&frac12;','aorg':-110,'dorg':1.909,'horg':-6.5,'dhorg':'-6&frac12;','av':0,'dv':0,'rno':268}" value="G|Football|NFL|0|POSTUP|.|283013479|S|SAW|Seattle Seahawks" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">-6&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span> 	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013479|M|MLAW|Seattle Seahawks','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLAW','tmId':'Seattle Seahawks'},'a':-275,'d':1.363,'h':0,'dh':'','aorg':-275,'dorg':1.363,'horg':0,'dhorg':'','av':0,'dv':0,'rno':268}" value="G|Football|NFL|0|POSTUP|.|283013479|M|MLAW|Seattle Seahawks" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':-275,'d':1.363}">-275</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013479|L|TTUN|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTUN','tmId':''},'a':-110,'d':1.909,'h':42,'dh':'42','aorg':-110,'dorg':1.909,'horg':42,'dhorg':'42','av':0,'dv':0,'rno':268}" value="G|Football|NFL|0|POSTUP|.|283013479|L|TTUN|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Un</td>
+  <td class="hdcp bdevtt ">42</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="addMkt">
+  <td colspan="22">
+  </td>
+</tr>
+			</tbody>
+			<tbody class="event">
+			    
+  
+<tr class="h2hSeq firstline" seq="105571966">
+  <td rowspan="3" class="col_time bdevtt">04:05 PM</td>
+  <td class="col_rotno bdevtt" evcfg="{'lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'San Diego Chargers','crid':'Foot-NFL Su St. Louis Ram@San Diego Cha','gnum':283013480,'gmdt':'11\/23\/2014 16:05:01','ltm':'St. Louis Rams','rtm':'San Diego Chargers','dltm':'St. Louis Rams','drtm':'San Diego Chargers','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I','prvntpntby':true}">269</td>
+  <td class="col_teamname bdevtt">St. Louis Rams </td>
+  <td class="info bdevtt">
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013480|S|SHW|St. Louis Rams','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SHW','tmId':'St. Louis Rams'},'a':-110,'d':1.909,'h':4.5,'dh':'+4&frac12;','aorg':-110,'dorg':1.909,'horg':4.5,'dhorg':'+4&frac12;','av':0,'dv':0,'rno':269}" value="G|Football|NFL|0|POSTUP|.|283013480|S|SHW|St. Louis Rams" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">+4&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013480|M|MLHW|St. Louis Rams','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLHW','tmId':'St. Louis Rams'},'a':190,'d':2.9,'h':0,'dh':'','aorg':190,'dorg':2.9,'horg':0,'dhorg':'','av':0,'dv':0,'rno':269}" value="G|Football|NFL|0|POSTUP|.|283013480|M|MLHW|St. Louis Rams" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':190,'d':2.9}">+190</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013480|L|TTOV|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTOV','tmId':''},'a':-110,'d':1.909,'h':43.5,'dh':'43&frac12;','aorg':-110,'dorg':1.909,'horg':43.5,'dhorg':'43&frac12;','av':0,'dv':0,'rno':270}" value="G|Football|NFL|0|POSTUP|.|283013480|L|TTOV|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Ov</td>
+  <td class="hdcp bdevtt ">43&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt"> 	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="otherline">
+  <td class="col_rotno bdevtt">270</td>
+  <td class="col_teamname bdevtt">San Diego Chargers </td>
+  <td class="info bdevtt"></td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013480|S|SAW|San Diego Chargers','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SAW','tmId':'San Diego Chargers'},'a':-110,'d':1.909,'h':-4.5,'dh':'-4&frac12;','aorg':-110,'dorg':1.909,'horg':-4.5,'dhorg':'-4&frac12;','av':0,'dv':0,'rno':270}" value="G|Football|NFL|0|POSTUP|.|283013480|S|SAW|San Diego Chargers" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">-4&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span> 	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013480|M|MLAW|San Diego Chargers','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLAW','tmId':'San Diego Chargers'},'a':-220,'d':1.454,'h':0,'dh':'','aorg':-220,'dorg':1.454,'horg':0,'dhorg':'','av':0,'dv':0,'rno':270}" value="G|Football|NFL|0|POSTUP|.|283013480|M|MLAW|San Diego Chargers" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':-220,'d':1.454}">-220</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013480|L|TTUN|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTUN','tmId':''},'a':-110,'d':1.909,'h':43.5,'dh':'43&frac12;','aorg':-110,'dorg':1.909,'horg':43.5,'dhorg':'43&frac12;','av':0,'dv':0,'rno':270}" value="G|Football|NFL|0|POSTUP|.|283013480|L|TTUN|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Un</td>
+  <td class="hdcp bdevtt ">43&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="addMkt">
+  <td colspan="22">
+  </td>
+</tr>
+			</tbody>
+			<tbody class="event">
+			    
+  
+<tr class="h2hSeq firstline" seq="105571966">
+  <td rowspan="3" class="col_time bdevtt">04:25 PM</td>
+  <td class="col_rotno bdevtt" evcfg="{'lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'Denver Broncos','crid':'Foot-NFL Su Miami Dolphin@Denver Bronco','gnum':283013481,'gmdt':'11\/23\/2014 16:25:01','ltm':'Miami Dolphins','rtm':'Denver Broncos','dltm':'Miami Dolphins','drtm':'Denver Broncos','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I','prvntpntby':true}">271</td>
+  <td class="col_teamname bdevtt">Miami Dolphins </td>
+  <td class="info bdevtt">
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013481|S|SHW|Miami Dolphins','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SHW','tmId':'Miami Dolphins'},'a':-105,'d':1.952,'h':7,'dh':'+7','aorg':-105,'dorg':1.952,'horg':7,'dhorg':'+7','av':0,'dv':0,'rno':271}" value="G|Football|NFL|0|POSTUP|.|283013481|S|SHW|Miami Dolphins" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">+7</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-105,'d':1.952}">-105</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013481|M|MLHW|Miami Dolphins','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLHW','tmId':'Miami Dolphins'},'a':270,'d':3.7,'h':0,'dh':'','aorg':270,'dorg':3.7,'horg':0,'dhorg':'','av':0,'dv':0,'rno':271}" value="G|Football|NFL|0|POSTUP|.|283013481|M|MLHW|Miami Dolphins" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':270,'d':3.7}">+270</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013481|L|TTOV|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTOV','tmId':''},'a':-110,'d':1.909,'h':49,'dh':'49','aorg':-110,'dorg':1.909,'horg':49,'dhorg':'49','av':0,'dv':0,'rno':272}" value="G|Football|NFL|0|POSTUP|.|283013481|L|TTOV|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Ov</td>
+  <td class="hdcp bdevtt ">49</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt"> 	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="otherline">
+  <td class="col_rotno bdevtt">272</td>
+  <td class="col_teamname bdevtt">Denver Broncos </td>
+  <td class="info bdevtt"></td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013481|S|SAW|Denver Broncos','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SAW','tmId':'Denver Broncos'},'a':-115,'d':1.869,'h':-7,'dh':'-7','aorg':-115,'dorg':1.869,'horg':-7,'dhorg':'-7','av':0,'dv':0,'rno':272}" value="G|Football|NFL|0|POSTUP|.|283013481|S|SAW|Denver Broncos" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">-7</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-115,'d':1.869}">-115</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span> 	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013481|M|MLAW|Denver Broncos','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLAW','tmId':'Denver Broncos'},'a':-325,'d':1.307,'h':0,'dh':'','aorg':-325,'dorg':1.307,'horg':0,'dhorg':'','av':0,'dv':0,'rno':272}" value="G|Football|NFL|0|POSTUP|.|283013481|M|MLAW|Denver Broncos" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':-325,'d':1.307}">-325</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013481|L|TTUN|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTUN','tmId':''},'a':-110,'d':1.909,'h':49,'dh':'49','aorg':-110,'dorg':1.909,'horg':49,'dhorg':'49','av':0,'dv':0,'rno':272}" value="G|Football|NFL|0|POSTUP|.|283013481|L|TTUN|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Un</td>
+  <td class="hdcp bdevtt ">49</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="addMkt">
+  <td colspan="22">
+  </td>
+</tr>
+			</tbody>
+			<tbody class="event">
+			    
+  
+<tr class="h2hSeq firstline" seq="105571966">
+  <td rowspan="3" class="col_time bdevtt">04:25 PM</td>
+  <td class="col_rotno bdevtt" evcfg="{'lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'San Francisco 49ers','crid':'Foot-NFL Su Washington Re@San Francisco','gnum':283013482,'gmdt':'11\/23\/2014 16:25:01','ltm':'Washington Redskins','rtm':'San Francisco 49ers','dltm':'Washington Redskins','drtm':'San Francisco 49ers','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I','prvntpntby':true}">273</td>
+  <td class="col_teamname bdevtt">Washington Redskins </td>
+  <td class="info bdevtt">
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013482|S|SHW|Washington Redskins','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SHW','tmId':'Washington Redskins'},'a':-110,'d':1.909,'h':9,'dh':'+9','aorg':-110,'dorg':1.909,'horg':9,'dhorg':'+9','av':0,'dv':0,'rno':273}" value="G|Football|NFL|0|POSTUP|.|283013482|S|SHW|Washington Redskins" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">+9</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013482|M|MLHW|Washington Redskins','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLHW','tmId':'Washington Redskins'},'a':375,'d':4.75,'h':0,'dh':'','aorg':375,'dorg':4.75,'horg':0,'dhorg':'','av':0,'dv':0,'rno':273}" value="G|Football|NFL|0|POSTUP|.|283013482|M|MLHW|Washington Redskins" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':375,'d':4.75}">+375</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013482|L|TTOV|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTOV','tmId':''},'a':-110,'d':1.909,'h':44,'dh':'44','aorg':-110,'dorg':1.909,'horg':44,'dhorg':'44','av':0,'dv':0,'rno':274}" value="G|Football|NFL|0|POSTUP|.|283013482|L|TTOV|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Ov</td>
+  <td class="hdcp bdevtt ">44</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt"> 	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="otherline">
+  <td class="col_rotno bdevtt">274</td>
+  <td class="col_teamname bdevtt">San Francisco 49ers </td>
+  <td class="info bdevtt"></td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013482|S|SAW|San Francisco 49ers','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SAW','tmId':'San Francisco 49ers'},'a':-110,'d':1.909,'h':-9,'dh':'-9','aorg':-110,'dorg':1.909,'horg':-9,'dhorg':'-9','av':0,'dv':0,'rno':274}" value="G|Football|NFL|0|POSTUP|.|283013482|S|SAW|San Francisco 49ers" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">-9</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span> 	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013482|M|MLAW|San Francisco 49ers','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLAW','tmId':'San Francisco 49ers'},'a':-450,'d':1.222,'h':0,'dh':'','aorg':-450,'dorg':1.222,'horg':0,'dhorg':'','av':0,'dv':0,'rno':274}" value="G|Football|NFL|0|POSTUP|.|283013482|M|MLAW|San Francisco 49ers" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':-450,'d':1.222}">-450</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013482|L|TTUN|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTUN','tmId':''},'a':-110,'d':1.909,'h':44,'dh':'44','aorg':-110,'dorg':1.909,'horg':44,'dhorg':'44','av':0,'dv':0,'rno':274}" value="G|Football|NFL|0|POSTUP|.|283013482|L|TTUN|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Un</td>
+  <td class="hdcp bdevtt ">44</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="addMkt">
+  <td colspan="22">
+  </td>
+</tr>
+			</tbody>
+			<tbody class="event">
+			    
+  
+<tr class="h2hSeq firstline" seq="105571966">
+  <td rowspan="3" class="col_time bdevtt">08:30 PM</td>
+  <td class="col_rotno bdevtt" evcfg="{'lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'Dallas Cowboys','crid':'Foot-NFL Su Dallas Cowboy@New York Gian','gnum':283013483,'gmdt':'11\/23\/2014 20:30:01','ltm':'Dallas Cowboys','rtm':'New York Giants','dltm':'Dallas Cowboys','drtm':'New York Giants','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I','prvntpntby':true}">275</td>
+  <td class="col_teamname bdevtt">Dallas Cowboys </td>
+  <td class="info bdevtt">
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013483|S|SHW|Dallas Cowboys','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SHW','tmId':'Dallas Cowboys'},'a':-125,'d':1.8,'h':-3,'dh':'-3','aorg':-125,'dorg':1.8,'horg':-3,'dhorg':'-3','av':0,'dv':0,'rno':275}" value="G|Football|NFL|0|POSTUP|.|283013483|S|SHW|Dallas Cowboys" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">-3</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-125,'d':1.8}">-125</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013483|M|MLHW|Dallas Cowboys','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLHW','tmId':'Dallas Cowboys'},'a':-170,'d':1.588,'h':0,'dh':'','aorg':-170,'dorg':1.588,'horg':0,'dhorg':'','av':0,'dv':0,'rno':275}" value="G|Football|NFL|0|POSTUP|.|283013483|M|MLHW|Dallas Cowboys" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':-170,'d':1.588}">-170</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013483|L|TTOV|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTOV','tmId':''},'a':-110,'d':1.909,'h':47.5,'dh':'47&frac12;','aorg':-110,'dorg':1.909,'horg':47.5,'dhorg':'47&frac12;','av':0,'dv':0,'rno':276}" value="G|Football|NFL|0|POSTUP|.|283013483|L|TTOV|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Ov</td>
+  <td class="hdcp bdevtt ">47&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt"> 	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="otherline">
+  <td class="col_rotno bdevtt">276</td>
+  <td class="col_teamname bdevtt">New York Giants </td>
+  <td class="info bdevtt"></td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013483|S|SAW|New York Giants','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SAW','tmId':'New York Giants'},'a':105,'d':2.05,'h':3,'dh':'+3','aorg':105,'dorg':2.05,'horg':3,'dhorg':'+3','av':0,'dv':0,'rno':276}" value="G|Football|NFL|0|POSTUP|.|283013483|S|SAW|New York Giants" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">+3</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':105,'d':2.05}">+105</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span> 	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013483|M|MLAW|New York Giants','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLAW','tmId':'New York Giants'},'a':150,'d':2.5,'h':0,'dh':'','aorg':150,'dorg':2.5,'horg':0,'dhorg':'','av':0,'dv':0,'rno':276}" value="G|Football|NFL|0|POSTUP|.|283013483|M|MLAW|New York Giants" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':150,'d':2.5}">+150</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013483|L|TTUN|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTUN','tmId':''},'a':-110,'d':1.909,'h':47.5,'dh':'47&frac12;','aorg':-110,'dorg':1.909,'horg':47.5,'dhorg':'47&frac12;','av':0,'dv':0,'rno':276}" value="G|Football|NFL|0|POSTUP|.|283013483|L|TTUN|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Un</td>
+  <td class="hdcp bdevtt ">47&frac12;</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="addMkt">
+  <td colspan="22">
+  </td>
+</tr>
+			</tbody>
+		<tbody class="date">
+		  <tr>
+			<td colspan="27" class="bdt">Monday, Nov 24, 2014 - NFL Football Game</td>
+		  </tr>
+		</tbody>
+			<tbody class="event">
+			    
+  
+<tr class="h2hSeq firstline" seq="105571966">
+  <td rowspan="3" class="col_time bdevtt">08:40 PM</td>
+  <td class="col_rotno bdevtt" evcfg="{'lv1':'Football','lv2':'NFL','dlv1':'Football','dlv2':'NFL','ftid':'New Orleans Saints','crid':'Foot-NFL Mo Baltimore Rav@New Orleans S','gnum':283013486,'gmdt':'11\/24\/2014 20:40:01','ltm':'Baltimore Ravens','rtm':'New Orleans Saints','dltm':'Baltimore Ravens','drtm':'New Orleans Saints','ltmpchr':'','rtmpchr':'','dltmpchr':'','drtmpchr':'','prlres':'A','prd':0,'sts':'I','prvntpntby':true}">277</td>
+  <td class="col_teamname bdevtt">Baltimore Ravens </td>
+  <td class="info bdevtt">
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013486|S|SHW|Baltimore Ravens','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SHW','tmId':'Baltimore Ravens'},'a':105,'d':2.05,'h':3,'dh':'+3','aorg':105,'dorg':2.05,'horg':3,'dhorg':'+3','av':0,'dv':0,'rno':277}" value="G|Football|NFL|0|POSTUP|.|283013486|S|SHW|Baltimore Ravens" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">+3</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':105,'d':2.05}">+105</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013486|M|MLHW|Baltimore Ravens','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLHW','tmId':'Baltimore Ravens'},'a':155,'d':2.55,'h':0,'dh':'','aorg':155,'dorg':2.55,'horg':0,'dhorg':'','av':0,'dv':0,'rno':277}" value="G|Football|NFL|0|POSTUP|.|283013486|M|MLHW|Baltimore Ravens" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':155,'d':2.55}">+155</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013486|L|TTOV|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTOV','tmId':''},'a':-110,'d':1.909,'h':50,'dh':'50','aorg':-110,'dorg':1.909,'horg':50,'dhorg':'50','av':0,'dv':0,'rno':278}" value="G|Football|NFL|0|POSTUP|.|283013486|L|TTOV|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Ov</td>
+  <td class="hdcp bdevtt ">50</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt"> 	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="otherline">
+  <td class="col_rotno bdevtt">278</td>
+  <td class="col_teamname bdevtt">New Orleans Saints </td>
+  <td class="info bdevtt"></td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013486|S|SAW|New Orleans Saints','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'S','selTyp':'SAW','tmId':'New Orleans Saints'},'a':-125,'d':1.8,'h':-3,'dh':'-3','aorg':-125,'dorg':1.8,'horg':-3,'dhorg':'-3','av':0,'dv':0,'rno':278}" value="G|Football|NFL|0|POSTUP|.|283013486|S|SAW|New Orleans Saints" disabled='true' /> </td>
+  <td class="hdcp bdevtt ">-3</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-125,'d':1.8}">-125</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span> 	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013486|M|MLAW|New Orleans Saints','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'M','selTyp':'MLAW','tmId':'New Orleans Saints'},'a':-175,'d':1.571,'h':0,'dh':'','aorg':-175,'dorg':1.571,'horg':0,'dhorg':'','av':0,'dv':0,'rno':278}" value="G|Football|NFL|0|POSTUP|.|283013486|M|MLAW|New Orleans Saints" disabled='true' /> </td>
+  <td class="odds bdevtt moneylineodds displayOdds" cfg="{'a':-175,'d':1.571}">-175</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>	
+  </td>
+  
+  <td class="checkboxes bdevtt2 "><input type="checkbox" class="oddsselection" cfg="{'type':'h2h','selId':'G|Football|NFL|0|POSTUP|.|283013486|L|TTUN|','selObj':{'gt':'G','str':'POSTUP','prf':'.','mkt':'L','selTyp':'TTUN','tmId':''},'a':-110,'d':1.909,'h':50,'dh':'50','aorg':-110,'dorg':1.909,'horg':50,'dhorg':'50','av':0,'dv':0,'rno':278}" value="G|Football|NFL|0|POSTUP|.|283013486|L|TTUN|" disabled='true' /> </td>
+  <td class="mktdesc bdevtt ">Un</td>
+  <td class="hdcp bdevtt ">50</td>
+  <td class="odds bdevtt displayOdds" cfg="{'a':-110,'d':1.909}">-110</td>
+  <td class="info bdevtt">
+		<span class="redCircle" title="This bet type is currently circled for a lower than usual max wager.">o</span>
+  </td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  
+  <td class="checkboxes bdevtt2 "></td>
+  <td class="mktdesc bdevtt "></td>
+  <td class="smlhdcp bdevtt "></td>
+  <td class="odds bdevtt " cfg=""></td>
+  <td class="info bdevtt">	
+  </td>
+  
+  <td class="addMktIcn bdevtt">
+  </td>
+</tr>
+  
+<tr class="addMkt">
+  <td colspan="22">
+  </td>
+</tr>
+			</tbody>
+	</table>
+
+
+<div id="scoreboard-dialog" class="scoreboard-dialog"></div>
+<script type="text/javascript">
+	P.LiveBetting.Init();
+</script>
+<table class="league">
+  <tbody class="event">
+    <tr class="eventseparator">
+      <td colspan="7"></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+	
+
+	<div id="maxSeq"></div>
+
+

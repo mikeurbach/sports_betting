@@ -1,0 +1,694 @@
+
+<!DOCTYPE html>
+<html class="ui-mobile">
+<head> 
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	<title></title>
+
+    <link rel="stylesheet" href="http://mobile2.sportsbetting.ag/ui/Content/mobile/2/themes/red-theme.css">
+    <link rel="stylesheet" type="text/css" href="http://mobile2.sportsbetting.ag/ui/Content/mobile/2/css/jquery.mobile.structure-1.3.1.min.css">
+    <link rel="stylesheet" type="text/css" href="http://mobile2.sportsbetting.ag/ui/Content/mobile/2/css/site.css">
+    <link rel="stylesheet" type="text/css" href="http://mobile2.sportsbetting.ag/ui/Content/mobile/2/css/site-responsive.css">    
+    <link rel="stylesheet" type="text/css" href="http://mobile2.sportsbetting.ag/ui/Content/mobile/2/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="http://mobile2.sportsbetting.ag/ui/Content/mobile/2/css/owl.theme.css">
+
+			<script type="text/javascript">
+				try{
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-1860153-8']);
+				_gaq.push(['_setDomainName', '.sportsbetting.ag']);
+				_gaq.push(['_setAllowLinker', true]);
+				_gaq.push(['_trackPageview']);
+				(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+				}catch(e){}
+			</script>
+  
+</head>
+<body class="ui-mobile-viewport general-body">
+
+<div data-role="page" style="overflow: hidden;">
+
+<div data-role="panel" id="menu" class="menu-panel" style="padding: 0; margin: 0;">
+	<div class="menu-logo-container">
+    	<img src="http://mobile2.sportsbetting.ag/ui/Content/mobile/2/img/logo1.png">
+    </div>
+	<ul>
+                <li><a data-ajax="false" class="menu-link" href="/">
+                    <img src="http://mobile2.sportsbetting.ag/ui/Content/mobile/2/img/home.png" width="24" height="24" class="icon-menu">Home</a></li>
+                <li><a data-ajax="false" class="menu-link" href="/login">
+                    <img src="http://mobile2.sportsbetting.ag/ui/Content/mobile/2/img/login.png" width="24" height="24" class="icon-menu">Login</a></li>
+                <li><a data-ajax="false" class="menu-link" href="/join/account">
+                    <img src="http://mobile2.sportsbetting.ag/ui/Content/mobile/2/img/join.png" width="24" height="24" class="icon-menu">Join Us</a></li>
+                <li><a data-ajax="false" class="menu-link" href="/sports">
+                    <img src="http://mobile2.sportsbetting.ag/ui/Content/mobile/2/img/sports.png" width="24" height="24" class="icon-menu">Sports</a></li>
+        
+                <li><a data-ajax="false" class="menu-link" href="/my-account/LiveBetting">
+                    <img src="http://mobile2.sportsbetting.ag/ui/Content/mobile/2/img/livebet.png" width="24" height="24" class="icon-menu">Live Betting</a></li>
+        
+        
+    </ul>
+</div>
+
+<div data-role="header" id="top">
+	<a href="#menu" data-role="button" data-icon="bars" data-iconpos="notext">Menu</a>
+	    <h1>HOME</h1>
+        <a href="http://mobile2.sportsbetting.ag/home" data-role="button" data-ajax="false" data-icon="home" data-iconpos="notext">Home</a>
+
+</div>
+
+<div data-role="content" style="background-color: #FFF; padding: 0;">
+    <input id="IsAuthenticate" name="IsAuthenticate" type="hidden" value="False" />
+    
+
+<div id="promotion-come-back-home" class="promo-details" style="display:none; padding:0; margin:0;">
+    <a style="margin: 0;" data-role="button" data-icon="arrow-l" data-corners="false" data-theme="a" onclick="javascript:PromotionComeBack()">Promotions</a>
+</div>
+
+<div id="promotion-description-come-back" class="promo-details" style="display:none; padding:0; margin:0;">
+    <a style="margin: 0;" data-role="button" data-icon="arrow-l" data-corners="false" data-theme="a" onclick="javascript:PromotionDescriptionComeBack()">Description</a>
+</div>
+
+
+
+
+
+
+
+<div data-role="contentt" id="home-view">
+    
+<div id="sports-content" class="gradient-bg">
+
+    <div id="paging-top" class="paging-cont clearfix">
+        <div class="paging-bottom-wrapper">           
+            <div style="width:100%" >
+                <div class="btn prev" style="float: left; margin-top: 15px; width: 8%; text-align: center;">
+                    <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="a" data-inline="true" data-wrapperels="span" data-iconshadow="true" data-shadow="true" data-corners="true" style="border:none; border-radius:15px;">Arrow left</a>
+                </div>
+                <div style="float: left; margin-left: 15px; margin-right: 0px; width: 74%; text-align: center;">
+                    <div id="owl-demo" class="owl-carousel owl-theme">
+        </div>
+                </div>               
+                <div class="btn next" style="float: right; margin-top: 15px; width: 6%; text-align: center; margin-right: 22px;">
+                    <a href="#" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a" data-inline="true" data-wrapperels="span" data-iconshadow="true" data-shadow="true" data-corners="true" style="border:none; border-radius: 15px;">Arrow right</a>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+    <script>
+        var nameterms = "";
+        var sports = [{"s":"Auto Racing","ls":[{"l":"Formula 1","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"IRL","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"NASCAR","ps":[{"p":"Game","n":0,"hg":false}]}]},{"s":"Baseball","ls":[{"l":"Adj Run Line","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"All-Star","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st 5 Innings","n":1,"hg":false},{"p":"Last 4 Innings","n":2,"hg":false}]},{"l":"Alt Run Line","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Exhibition","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st 5 Innings","n":1,"hg":false},{"p":"Last 4 Innings","n":2,"hg":false}]},{"l":"Grand Salami","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"INTL","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st 5 Innings","n":1,"hg":false},{"p":"Last 4 Innings","n":2,"hg":false}]},{"l":"Japan","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st 5 Innings","n":1,"hg":false},{"p":"Last 4 Innings","n":2,"hg":false}]},{"l":"Little Leag.","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st 5 Innings","n":1,"hg":false},{"p":"Last 4 Innings","n":2,"hg":false}]},{"l":"MLB","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st 5 Innings","n":1,"hg":false},{"p":"Last 4 Innings","n":2,"hg":false}]},{"l":"MLB Series","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st 5 Innings","n":1,"hg":false},{"p":"Last 4 Innings","n":2,"hg":false}]},{"l":"NCAA","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st 5 Innings","n":1,"hg":false},{"p":"Last 4 Innings","n":2,"hg":false}]},{"l":"R+H+E","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"World Baseball Classic","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st 5 Innings","n":1,"hg":false},{"p":"Last 4 Innings","n":2,"hg":false}]}]},{"s":"Basketball","ls":[{"l":"Euroleague","ps":[{"p":"Game","n":0,"hg":true},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"FIBA","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"Germany","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"INTL","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"Italy","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"NBA","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"NBA SERIES","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"NCAA","ps":[{"p":"Game","n":0,"hg":true},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":true},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"Olympics","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"Spain","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"WNBA","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"WNBA SERIES","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"WNCAA","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]}]},{"s":"Boxing","ls":[{"l":"Matchups","ps":[{"p":"Game","n":0,"hg":true}]}]},{"s":"Cricket","ls":[{"l":"CB 40","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"IPL","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"ODI","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"T20","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Test Match","ps":[{"p":"Game","n":0,"hg":true}]}]},{"s":"Darts","ls":[{"l":"BDO","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"PDC","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Premier","ps":[{"p":"Game","n":0,"hg":false}]}]},{"s":"Football","ls":[{"l":"Arena","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"Australian","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"CFL","ps":[{"p":"Game","n":0,"hg":true},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"NCAA","ps":[{"p":"Game","n":0,"hg":true},{"p":"1st Half","n":1,"hg":true},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"NFL","ps":[{"p":"Game","n":0,"hg":true},{"p":"1st Half","n":1,"hg":true},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"NFL Alt Line","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"NFL Salami","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"UFL","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]}]},{"s":"Golf","ls":[{"l":"EURO PGA","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"LPGA","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"PGA","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Round 1","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Round 2","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Round 3","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Round 4","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Round 5","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Ryder Cup","ps":[{"p":"Game","n":0,"hg":false}]}]},{"s":"Hockey","ls":[{"l":"AHL","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Period","n":1,"hg":false},{"p":"2nd Period","n":2,"hg":false},{"p":"3rd Period","n":3,"hg":false}]},{"l":"AHL 3WAY","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Period","n":1,"hg":false},{"p":"2nd Period","n":2,"hg":false},{"p":"3rd Period","n":3,"hg":false}]},{"l":"Grand Salami","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Period","n":1,"hg":false},{"p":"2nd Period","n":2,"hg":false},{"p":"3rd Period","n":3,"hg":false}]},{"l":"IIHF","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Period","n":1,"hg":false},{"p":"2nd Period","n":2,"hg":false},{"p":"3rd Period","n":3,"hg":false}]},{"l":"IIHF 3 WAY","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Period","n":1,"hg":false},{"p":"2nd Period","n":2,"hg":false},{"p":"3rd Period","n":3,"hg":false}]},{"l":"NCAA","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Period","n":1,"hg":false},{"p":"2nd Period","n":2,"hg":false},{"p":"3rd Period","n":3,"hg":false}]},{"l":"NHL","ps":[{"p":"Game","n":0,"hg":true},{"p":"1st Period","n":1,"hg":false},{"p":"2nd Period","n":2,"hg":false},{"p":"3rd Period","n":3,"hg":false}]},{"l":"NHL 3 WAY","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Period","n":1,"hg":false},{"p":"2nd Period","n":2,"hg":false},{"p":"3rd Period","n":3,"hg":false}]},{"l":"NHL INTER","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Period","n":1,"hg":false},{"p":"2nd Period","n":2,"hg":false},{"p":"3rd Period","n":3,"hg":false}]},{"l":"NHL SERIES","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Period","n":1,"hg":false},{"p":"2nd Period","n":2,"hg":false},{"p":"3rd Period","n":3,"hg":false}]},{"l":"Olympics","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Period","n":1,"hg":false},{"p":"2nd Period","n":2,"hg":false},{"p":"3rd Period","n":3,"hg":false}]},{"l":"Preseason","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"Russia","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Period","n":1,"hg":false},{"p":"2nd Period","n":2,"hg":false},{"p":"3rd Period","n":3,"hg":false}]},{"l":"Sweden","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Period","n":1,"hg":false},{"p":"2nd Period","n":2,"hg":false},{"p":"3rd Period","n":3,"hg":false}]}]},{"s":"Lacrosse","ls":[{"l":"NCAA","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]}]},{"s":"Live Betting","ls":[{"l":"Cricket","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Golf","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"MLB","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st 5 Innings","n":1,"hg":false},{"p":"Last 4 Innings","n":2,"hg":false}]},{"l":"MMA","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"NBA","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"NCAA BK","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"NCAA FB","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"NCAA LAX","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"NFL","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"NHL","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Period","n":1,"hg":false},{"p":"2nd Period","n":2,"hg":false},{"p":"3rd Period","n":3,"hg":false}]},{"l":"Olympics","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"Soccer","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]},{"l":"Tennis","ps":[{"p":"Match","n":0,"hg":false},{"p":"1st Set","n":1,"hg":false},{"p":"Remaining Sets","n":2,"hg":false}]},{"l":"WNBA","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]}]},{"s":"Martial Arts","ls":[{"l":"MMA","ps":[{"p":"Game","n":0,"hg":true}]}]},{"s":"Olympics","ls":[{"l":"Basketball","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"Matchups","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]},{"l":"OUTRIGHTS","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false},{"p":"1st Quarter","n":3,"hg":false},{"p":"2nd Quarter","n":4,"hg":false},{"p":"3rd Quarter","n":5,"hg":false},{"p":"4th Quarter","n":6,"hg":false}]}]},{"s":"Rugby","ls":[{"l":"Currie Cup","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"England","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Europe","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"France","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"ITM Cup","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"NRL","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Six Nations","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]},{"l":"Super Rugby","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]},{"l":"Test Match","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Tri Nations","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]}]},{"s":"Snooker","ls":[{"l":"Snooker","ps":[{"p":"Game","n":0,"hg":false}]}]},{"s":"Soccer","ls":[{"l":"Argentina","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Australia","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Austria","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Belgium","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Brazil","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"CAF","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]},{"l":"Canada","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Chile","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"China","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Colombia","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"CONCACAF","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]},{"l":"CONMEBOL","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Costa Rica","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Croatia","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Czech Rep.","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Denmark","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Ecuador","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"England","ps":[{"p":"Game","n":0,"hg":true},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]},{"l":"FIFA","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]},{"l":"Finland","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"France","ps":[{"p":"Game","n":0,"hg":true},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]},{"l":"Friendlies","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]},{"l":"Germany","ps":[{"p":"Game","n":0,"hg":true},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]},{"l":"Greece","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Ireland","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Italy","ps":[{"p":"Game","n":0,"hg":true},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]},{"l":"Japan","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Matchups","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Mexico","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Netherlands","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Norway","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Paraguay","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Peru","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Poland","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Portugal","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Republic of Korea","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Romania","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Russia","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"S. Africa","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Scotland","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Spain","ps":[{"p":"Game","n":0,"hg":true},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]},{"l":"Sweden","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Switzerland","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"Turkey","ps":[{"p":"Game","n":0,"hg":true}]},{"l":"UEFA","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]},{"l":"UEFA CL","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]},{"l":"UEFA EL","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]},{"l":"Ukraine","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"Uruguay","ps":[{"p":"Game","n":0,"hg":false}]},{"l":"USA","ps":[{"p":"Game","n":0,"hg":false},{"p":"1st Half","n":1,"hg":false},{"p":"2nd Half","n":2,"hg":false}]}]},{"s":"Softball","ls":[{"l":"NCAA","ps":[{"p":"Game","n":0,"hg":false}]}]},{"s":"Tennis","ls":[{"l":"ATP","ps":[{"p":"Match","n":0,"hg":false},{"p":"1st Set","n":1,"hg":false},{"p":"Remaining Sets","n":2,"hg":false}]},{"l":"ATP-DOUBLES","ps":[{"p":"Match","n":0,"hg":false},{"p":"1st Set","n":1,"hg":false},{"p":"Remaining Sets","n":2,"hg":false}]},{"l":"WTA","ps":[{"p":"Match","n":0,"hg":false},{"p":"1st Set","n":1,"hg":false},{"p":"Remaining Sets","n":2,"hg":false}]},{"l":"WTA-DOUBLES","ps":[{"p":"Match","n":0,"hg":false},{"p":"1st Set","n":1,"hg":false},{"p":"Remaining Sets","n":2,"hg":false}]}]}];
+        var wcmSports = ["Football","Basketball"];
+     
+</script>
+ 
+ 
+ </div>   
+
+      
+   <div id="most-popular-content" class="most-popular-content" style="padding-top: 0px;">   
+
+
+
+
+		<style type="text/css">
+
+		#data-click
+		{
+			border-right-width: 1px;
+			border-left-width: 1px;
+			display: block;
+			padding:0px;
+			border-bottom-width: 0px;
+		}
+
+		#data-btn-ui-li
+		{
+			display: block;
+			position: relative;
+			padding: 0;
+		}
+
+		#most-popular-listview{
+            padding-left: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            border-top-width: 0px;
+            border-bottom-width: 0px;
+		}
+
+        #data-btn-text
+        {
+            background-color: #DFDFDF;
+            height: 35px;
+            font-weight: bold;
+            color: #3b3b3b ;
+	        text-shadow:none;
+            font-family:Tahoma;
+            font-size:14px;
+           
+        }
+
+		#titleMostP
+		{
+            text-align: center;
+            height: 20px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px; 
+            border-bottom:1px solid #cccccc;
+            font-size:16px;
+		}
+
+		#subTitleM
+		{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align:left;
+            padding-left: 5px;
+            border-top-width: 0px;
+            font-weight: bold;
+            color:#2b2929;
+            border: 1px solid #cccccc /*{a-bup-border}*/;
+	        background: #ededed /*{a-bup-background-color}*/;
+	        font-weight: bold;
+	        color: #3b3b3b /*{a-bup-color}*/;
+	        text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #ffffff /*{a-bup-shadow-color}*/;
+	        background-image: -webkit-gradient(linear, left top, left bottom, from( #ededed /*{a-bup-background-start}*/), to( #ededed /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
+	        background-image: -webkit-linear-gradient( #ededed /*{a-bup-background-start}*/, #ededed /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	        background-image:    -moz-linear-gradient( #ededed /*{a-bup-background-start}*/, #ededed /*{a-bup-background-end}*/); /* FF3.6 */
+	        background-image:     -ms-linear-gradient( #ededed /*{a-bup-background-start}*/, #ededed /*{a-bup-background-end}*/); /* IE10 */
+	        background-image:      -o-linear-gradient( #ededed /*{a-bup-background-start}*/, #ededed /*{a-bup-background-end}*/); /* Opera 11.10+ */
+	        background-image:         linear-gradient( #ededed /*{a-bup-background-start}*/, #ededed /*{a-bup-background-end}*/);
+            font-family:Tahoma;
+		}
+
+
+		</style>
+        <ul id="most-popular-listview" data-role="listview" data-inset="true">     
+            <li style="text-align:center;" data-role="list-divider" role="heading" class="ui-btn ui-fullsize ui-btn-icon-left ui-btn-up-b" id="titleMostP">Most Popular</li>
+                <li role="heading" id="subTitleM">Football</li>
+                    <li id= "data-click" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right"  class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li" style="border-bottom:1px solid #cccccc;">
+                        <div class="ui-btn-inner ui-li" id="data-btn-ui-li" style="border-top:none;">
+                            <div class="ui-btn-text" id="data-btn-text">
+								<a onclick="javascript:GoLeagueSelected('Football', 'NFL', '109')" class="ui-link-inherit" id="data-onclick-ui" style="font-size: 14px;color:#2b2929; border:none;">Kansas City Chiefs vs Oakland Raiders</a>
+                            </div><span class="ui-icon ui-icon-arrow-r ui-icon-shadow" id="most-popular-span-click">&nbsp;</span>
+                        </div>
+                    </li>
+                    <li id= "data-click" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right"  class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li" style="border-bottom:1px solid #cccccc;">
+                        <div class="ui-btn-inner ui-li" id="data-btn-ui-li" style="border-top:none;">
+                            <div class="ui-btn-text" id="data-btn-text">
+								<a onclick="javascript:GoLeagueSelected('Football', 'NFL', '257')" class="ui-link-inherit" id="data-onclick-ui" style="font-size: 14px;color:#2b2929; border:none;">Green Bay Packers vs Minnesota Vikings</a>
+                            </div><span class="ui-icon ui-icon-arrow-r ui-icon-shadow" id="most-popular-span-click">&nbsp;</span>
+                        </div>
+                    </li>
+                    <li id= "data-click" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right"  class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li" style="border-bottom:1px solid #cccccc;">
+                        <div class="ui-btn-inner ui-li" id="data-btn-ui-li" style="border-top:none;">
+                            <div class="ui-btn-text" id="data-btn-text">
+								<a onclick="javascript:GoLeagueSelected('Football', 'NFL', '255')" class="ui-link-inherit" id="data-onclick-ui" style="font-size: 14px;color:#2b2929; border:none;">Detroit Lions vs New England Patriots</a>
+                            </div><span class="ui-icon ui-icon-arrow-r ui-icon-shadow" id="most-popular-span-click">&nbsp;</span>
+                        </div>
+                    </li>
+                    <li id= "data-click" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right"  class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li" style="border-bottom:1px solid #cccccc;">
+                        <div class="ui-btn-inner ui-li" id="data-btn-ui-li" style="border-top:none;">
+                            <div class="ui-btn-text" id="data-btn-text">
+								<a onclick="javascript:GoLeagueSelected('Football', 'NFL', '267')" class="ui-link-inherit" id="data-onclick-ui" style="font-size: 14px;color:#2b2929; border:none;">Arizona Cardinals vs Seattle Seahawks</a>
+                            </div><span class="ui-icon ui-icon-arrow-r ui-icon-shadow" id="most-popular-span-click">&nbsp;</span>
+                        </div>
+                    </li>
+                    <li id= "data-click" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right"  class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li" style="border-bottom:1px solid #cccccc;">
+                        <div class="ui-btn-inner ui-li" id="data-btn-ui-li" style="border-top:none;">
+                            <div class="ui-btn-text" id="data-btn-text">
+								<a onclick="javascript:GoLeagueSelected('Football', 'NFL', '271')" class="ui-link-inherit" id="data-onclick-ui" style="font-size: 14px;color:#2b2929; border:none;">Miami Dolphins vs Denver Broncos</a>
+                            </div><span class="ui-icon ui-icon-arrow-r ui-icon-shadow" id="most-popular-span-click">&nbsp;</span>
+                        </div>
+                    </li>
+                    <li id= "data-click" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right"  class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li" style="border-bottom:1px solid #cccccc;">
+                        <div class="ui-btn-inner ui-li" id="data-btn-ui-li" style="border-top:none;">
+                            <div class="ui-btn-text" id="data-btn-text">
+								<a onclick="javascript:GoLeagueSelected('Football', 'NCAA', '113')" class="ui-link-inherit" id="data-onclick-ui" style="font-size: 14px;color:#2b2929; border:none;">North Carolina vs Duke</a>
+                            </div><span class="ui-icon ui-icon-arrow-r ui-icon-shadow" id="most-popular-span-click">&nbsp;</span>
+                        </div>
+                    </li>
+                    <li id= "data-click" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right"  class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li" style="border-bottom:1px solid #cccccc;">
+                        <div class="ui-btn-inner ui-li" id="data-btn-ui-li" style="border-top:none;">
+                            <div class="ui-btn-text" id="data-btn-text">
+								<a onclick="javascript:GoLeagueSelected('Football', 'NFL', '275')" class="ui-link-inherit" id="data-onclick-ui" style="font-size: 14px;color:#2b2929; border:none;">Dallas Cowboys vs New York Giants</a>
+                            </div><span class="ui-icon ui-icon-arrow-r ui-icon-shadow" id="most-popular-span-click">&nbsp;</span>
+                        </div>
+                    </li>
+        </ul>
+<script type="text/javascript">
+
+    function mostPopularRefresh() {
+
+        try {
+            showMostPopular();
+        } catch (err) { }
+
+        setTimeout("mostPopularRefresh()", 950000)
+    }
+
+    function showMostPopular() {
+        var key = "mostpopular";
+        var nElements = 7;
+        var seconds = 60;
+
+        var url = "/home/most-popular-widgets?key=" + key + "&nElements=" + nElements + "&seconds=" + seconds;
+        $("#most-popular-content").load(url);
+    }
+</script>
+	</div>
+	
+	
+
+
+		<style type="text/css">
+
+		#data-click
+		{
+			border-right-width: 1px;
+			border-left-width: 1px;
+			display: block;
+			padding:0px;
+			border-bottom-width: 0px;
+		}
+
+		#data-btn-ui-li
+		{
+			display: block;
+			position: relative;
+			padding: 0;
+		}
+
+		#casino-popular-listview{
+			padding-left: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            border-top-width: 0px;
+            border-bottom-width: 0px;
+		}
+
+
+		</style>
+    
+
+        <div id="casino-popular-content" class="most-popular-content">
+         
+        
+        <ul id="casino-popular-listview" data-role="listview" data-inset="true" data-theme="a" style="">    
+            <li style="text-align:center;" data-role="list-divider" role="heading" class="ui-btn ui-fullsize ui-btn-icon-left ui-btn-up-b" id="titleMostP">Casino</li>
+                    <li id= "data-click" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li" style="border-bottom:1px solid #cccccc;">
+                        <div class="ui-btn-inner ui-li" id="data-btn-ui-li" style="border:none;" >
+                            <div class="ui-btn-text" id="data-btn-text">
+                                     <a onclick="javascript:GoCasinoSelected('/login')"  class="ui-link-inherit" id="data-onclick-ui" style="font-size: 14px; color:#2b2929;">Play Casino</a>
+                                
+                            </div><span class="ui-icon ui-icon-arrow-r ui-icon-shadow" id="most-popular-span-click">&nbsp;</span>
+                        </div>
+                    </li>
+        </ul>
+            </div>
+<script>
+
+    function GoCasinoSelected(url) {
+        window.location.replace(url);
+    }
+
+</script> 
+    
+    
+
+
+
+
+<script>
+
+    function GoRaceSelected(url) {
+        window.location.replace(url);
+    }
+
+</script> 
+
+    
+
+    
+    
+
+   
+
+<style>
+    #promo-desc
+    {
+        display: none;
+        text-align: justify;
+        font: 16px Tahoma;
+        list-style-type: none;
+        margin-right: 30px;
+    }
+
+    .promo-event-desc
+    {
+        background: #DFDFDF!important;
+        border-bottom: 1px solid #cccccc;
+    }
+
+    #promo-list
+    {
+        padding-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+    }
+
+    #term-promotion
+    {
+        display: none;
+        margin-left: 40px;
+        font: 13px Tahoma;
+    }
+
+    #promo-terms
+    {
+        list-style-type: none;
+        display: none;
+        font: 16px Tahoma;
+    }
+</style>
+    <div data-role="contentt" id="promotion-content">
+        <ul data-role="listview" data-inset="true" data-theme="a" id="promo-list" style="margin-top: 0px;">
+            <li style="text-align: center;" data-role="list-divider" role="heading" class="ui-btn ui-fullsize ui-btn-icon-left ui-btn-up-b" id="titleMostP">Promotions</li>
+                <li style="height: 35px;border-right-width: 1px;border-left-width: 1px;display: block;padding: 0px;border-bottom-width: 0px;" id ="BonusForLife-TC" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li" style="border-bottom:1px solid #cccccc;">
+                    <div class="ui-btn-inner ui-li" id="data-btn-ui-li" style="border: none;">
+                        <div class="ui-btn-text" id="data-btn-text">
+                            <a onclick="javascript:ShowDetailPromotion('Bonus For Life', 'Do some sportsbooks shortchange you on deposit bonuses? Not Sportsbetting. We&#39;ll give you up to a 25% free play bonus for each and EVERY qualified deposit. Check out the Terms and Conditions below to find out all the details and apply the proper promocode when you make a deposit.', 'BonusForLife-TC')"  class="ui-link-inherit" id="data-onclick-ui" style="font-size: 14px; color:#2b2929;">Bonus For Life</a>
+                        </div>
+                        <span class="ui-icon ui-icon-arrow-r ui-icon-shadow" id="most-popular-span-click">&nbsp;</span>
+                    </div>
+                </li>
+                <li style="height: 35px;border-right-width: 1px;border-left-width: 1px;display: block;padding: 0px;border-bottom-width: 0px;" id ="25FreeLiveIn-GameBetting-TC" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li" style="border-bottom:1px solid #cccccc;">
+                    <div class="ui-btn-inner ui-li" id="data-btn-ui-li" style="border: none;">
+                        <div class="ui-btn-text" id="data-btn-text">
+                            <a onclick="javascript:ShowDetailPromotion('$25 Free Live In-Game Betting', 'Ever miss a kick-off or lay off a winning pick? Everyone has. With our cutting edge Live In-Game Betting app, you can get in the action as it unfolds in real-time. Try it out risk-free now. For a limited time, we give you a free $25 bet* if your first bet using our new Live In-Game Betting App is not a winner.', '25FreeLiveIn-GameBetting-TC')"  class="ui-link-inherit" id="data-onclick-ui" style="font-size: 14px; color:#2b2929;">$25 Free Live In-Game Betting</a>
+                        </div>
+                        <span class="ui-icon ui-icon-arrow-r ui-icon-shadow" id="most-popular-span-click">&nbsp;</span>
+                    </div>
+                </li>
+                <li style="height: 35px;border-right-width: 1px;border-left-width: 1px;display: block;padding: 0px;border-bottom-width: 0px;" id ="The7BackTrackRebates-TC" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li" style="border-bottom:1px solid #cccccc;">
+                    <div class="ui-btn-inner ui-li" id="data-btn-ui-li" style="border: none;">
+                        <div class="ui-btn-text" id="data-btn-text">
+                            <a onclick="javascript:ShowDetailPromotion('The 7% Back Track Rebates', 'All internet wagers earn a 7% daily rebate. Telephone wagers earn a 4% daily rebate. There is no cap to the rebate size a Player may collect and there is also no minimum volume of bets that needs to be placed.', 'The7BackTrackRebates-TC')"  class="ui-link-inherit" id="data-onclick-ui" style="font-size: 14px; color:#2b2929;">The 7% Back Track Rebates</a>
+                        </div>
+                        <span class="ui-icon ui-icon-arrow-r ui-icon-shadow" id="most-popular-span-click">&nbsp;</span>
+                    </div>
+                </li>
+        </ul>
+        <ul style="padding-left: 0px; margin-top: 0px; margin-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px;">
+            
+            <li id="promo-desc"></li>
+        </ul>
+        <a onclick="javascript:GetTermsPromotion()" id="term-promotion" href="#">Terms and Conditions</a>
+        <ul style="padding-left: 0px; margin-top: 0px; margin-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px;">
+            <li id="promo-terms"></li>
+        </ul>
+
+    </div>
+
+<script>
+    function ShowDetailPromotion(name, desc, term) {
+
+        // Set name of promotions
+        nameterms = term;
+
+        // Hide Leagues
+        $("#sports-content").hide();
+        //$("#page").hide();
+
+        // Hide Most Popular
+        $("#most-popular-content").hide();
+        $("#race-popular-content").hide();
+        $("#casino-popular-content").hide();
+        $("#promo-list").hide();
+
+        //Show Promotios Details
+        $("#home-view").css({ 'background-color': '#fff' });
+        $(".promo-details .ui-btn-inner .ui-btn-text").html(name);
+        $("#promo-desc").append(desc);
+        $("#promotion-come-back-home").show();
+        $("#promo-desc").show();
+        $("#term-promotion").show();
+    }
+</script>
+ 
+<a style="margin: 0;" data-role="button" data-theme="b" href="#" class="returnTopAction">Back to top</a>
+</div>
+
+
+
+<div data-role="footer" data-theme="z" class="footer" data-tap-toggle="false">
+    <div>
+        <a href="/terms">Terms</a> <span>-</span>
+        <a href="/rules">Rules</a> <span>-</span>
+        <a href="/contact-us">Contact Us</a>
+    </div>
+</div>
+
+
+<script src="http://mobile2.sportsbetting.ag/ui/Content/mobile/js/jquery-1.9.1.min.js"></script> 
+
+<script type="text/javascript">
+    $(document).bind("mobileinit", function () {
+        $.mobile.ajaxEnabled = false;
+        $.mobile.defaultPageTransition = 'none';
+        $.mobile.defaultDialogTransition = 'none';
+        $.mobile.buttonMarkup.hoverDelay = 0;
+    });
+</script>
+    
+<script src="http://mobile2.sportsbetting.ag/ui/Content/mobile/js/jquery.mobile-1.3.1.min.js"></script> 
+
+
+
+     <script src="http://mobile2.sportsbetting.ag/ui/Content/mobile/js/owl.carousel.js" type="text/javascript"></script>
+<script src="http://mobile2.sportsbetting.ag/ui/Script/Customer/home.js?v=0.1"></script>
+<script src="http://mobile2.sportsbetting.ag/ui/Script/knockout-2.1.0.js" type="text/javascript"></script>
+<script type="text/javascript">
+    
+    var vm = new ViewModel(sports, wcmSports);
+    vm.start();
+    $(document).bind('pageinit', function () {
+        ko.applyBindings(vm);
+    });
+
+    function GoLeagueSelected(s, l, rn) {
+        var url = "/sports/offerings?s=" + s + "&l=" + l + "&p=" + 0 + "&rn=" + rn;
+        window.location.replace(url);
+		mostPopularRefresh();
+    };
+
+    function PromotionComeBack() {
+
+        $("#home-view").css({ 'background-color': '#DFDFDF' });
+
+        //Hide Promotion Details
+        $("#promo-desc").empty();
+        $("#promotion-come-back-home").hide();
+        $("#promo-desc").hide();
+        $("#term-promotion").hide();
+
+        //Show Leagues
+        $("#sports-content").show();
+        $("#page").show();
+
+        //Show Most Popular
+        if($("#most-popular-content").html() != ""){
+            $("#most-popular-content").show();
+        }
+        $("#promo-list").show();
+        
+        if ($("#race-popular-content").html() != "") {
+            $("#race-popular-content").show();
+        }
+   
+        if ($("#casino-popular-content").html() != "") {
+            $("#casino-popular-content").show();
+        }
+        
+   
+    }
+
+    function GetTermsPromotion() {
+        var key = nameterms;
+
+        $.ajax({
+            url: '/content/HtmlContent',
+            type: 'GET',
+            data: { key: key },
+            success: function (data) {
+
+                //Hide Promotion Details
+                $("#promotion-description-come-back").show();
+                $("#promo-desc").append("");
+                $("#promotion-come-back-home").hide();
+                $("#promo-desc").hide();
+                $("#term-promotion").hide();
+
+                //Show Terms
+                $("#promo-terms").append(data);
+                $("#promo-terms").show();
+
+            }
+        });
+    }
+
+    function PromotionDescriptionComeBack() {
+        // Show Promotion Details
+        $("#promotion-description-come-back").hide();
+        $("#home-view").css({ 'background-color': '#fff' });
+        $("#promotion-come-back-home").show();
+        $("#promo-desc").show();
+        $("#term-promotion").show();
+
+        // Hide terms
+        $("#promo-terms").hide();
+        $("#promo-terms").empty();
+    }
+
+    var countSport = availableSportsSorted.length;
+    var owl = $("#owl-demo");
+    owl.owlCarousel({
+        items: 4,
+        jsonData: availableSportsSorted,
+        jsonPath: false,
+        jsonSuccess: customDataSuccess,
+        itemsDesktop: [1000, 4], //4 items between 1000px and 901px
+        itemsDesktopSmall: [900, 4], // betweem 900px and 601px
+        itemsTablet: [600, 4],
+        itemsMobile: [480, 4]
+    });
+
+    // Custom Navigation Events
+    $(".next").click(function () {
+        owl.trigger('owl.next');
+    })
+
+    $(".prev").click(function () {
+        owl.trigger('owl.prev');
+    })
+
+    function customDataSuccess(data) {
+        for (i = 0; i <= countSport - 1; i++) {
+            var sportimage = data[i] + ".png";
+            var staticdomain = "http://mobile2.sportsbetting.ag/ui";
+                var siteid = "2";
+                var pathimage = staticdomain + "/Content/mobile/" + siteid + "/img/icons/" + sportimage;
+                $("#owl-demo").append(
+                    $('<div>').append(
+                        $('<div>', {
+                            class: 'item',
+                            'data-theme': 'a'
+                        }).append(
+                        $('<a>', {
+                            href: '#',
+                            'data-bind': 'click:GotoSports'
+                        }).append(
+                        $('<img>', {
+                            name: data[i],
+                            src: pathimage,
+                            width: 48,
+                            height: 48
+                        }))),
+                        $('<div>', {
+                            class: 'itemname',
+                            'data-theme': 'a'
+                        }).append(data[i])
+                    )
+                 );
+            }
+        }
+
+</script>
+
+
+<script type="text/javascript">
+
+    function redirectTo(url) {
+        window.location = url;
+    }
+
+    function joinBackHistory() {
+        history.back();
+        return false;
+    }
+
+    function joinPostBackHistory(formID, url) {
+        $(formID).attr("action", url);
+        $(formID).submit();
+    }
+
+</script>
+
+<script type="text/javascript">
+    $(document).on('click', '.returnTopAction', function () {
+        $.mobile.silentScroll(0);
+    });
+    $(document).on("click", "a", function () {
+        var a = "3";
+        $.mobile.loading('show', { text: 'Loading...', textVisible: true, theme: 'a', html: "" });
+        hideLoadingPopupMessage(true);
+    });
+</script>
+        
+</div>
+     <script type="text/javascript" src="http://mobile2.sportsbetting.ag/ui/Script/Conversion/browser.detect.js?v=1.7.0"></script>
+     <script type="text/javascript" src="http://mobile2.sportsbetting.ag/ui/Script/Conversion/Configuration.js?v=1.7.0"></script>
+     <script type="text/javascript" src="http://mobile2.sportsbetting.ag/ui/Script/Conversion/Trigger.js?v=1.7.0"></script>
+     <script type="text/javascript" src="http://mobile2.sportsbetting.ag/ui/Script/Conversion/Tracking.js?v=1.7.0"></script>
+
+    <script type="text/javascript">
+
+       
+
+	    var Handler = new jHandler();
+	    var rootjTracking = new jTracking(trConfiguration.Application);
+	    rootjTracking.Process.OnAction = Handler.Event.ActionHandler;
+	    rootjTracking.Process.Start();
+
+	    function hideLoadingPopupMessage(delay) {
+	        if (delay == true) {
+	            setTimeout(function () {
+	                $.mobile.loading('hide');
+	            }, 500);
+	        }
+	        else {
+	            $.mobile.loading('hide');
+	        }
+	    }
+	    function hideLoadingDivMessage(delay) {
+	        if (delay == true) {
+	            setTimeout(function () {
+	                $("#ui-loader-message").hide();
+	                $("#straightPopup-screen").remove();
+
+	            }, 500);
+	        }
+	        else {
+	            $("#ui-loader-message").hide();
+	            $("#straightPopup-screen").remove();
+	        }
+	    }
+	</script>
+
+</body>
+
+</html>
