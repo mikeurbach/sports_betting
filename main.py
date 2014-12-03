@@ -27,12 +27,14 @@ topbet = TopBetEu(
 )
     
     
-# scrape for a week or so
-for second in range(1):
-    print "scrape", second
+# scrape forever
+scrape = 0
+while True:
+    print "scrape", scrape
     sportsbetting.scrape()
     topbet.scrape()
     time.sleep(normalvariate(5, 1))
+    scrape += 1
 
 cursor.close()
 cnx.close()
