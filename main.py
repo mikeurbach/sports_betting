@@ -29,7 +29,7 @@ topbet = TopBetEu(
     
 # scrape forever
 scrape_id = 0
-while True and scrape_id < 100:
+while True:
     print "scrape", scrape_id
     sportsbetting.scrape(scrape_id)
     topbet.scrape(scrape_id)
