@@ -32,9 +32,7 @@ class TopBetEu(Scraper):
             gametime = datetime(
                 int(match.group(1)),
                 int(match.group(2)),
-                int(match.group(3)),
-                int(match.group(4)),
-                int(match.group(5))
+                int(match.group(3))
             )
 
             # read the lines

@@ -36,13 +36,6 @@ class SportsBettingAg(Scraper):
                 awayteamstr = awayrow.find('td', class_='col_teamname').text
                 hometeamstr = homerow.find('td', class_='col_teamname').text
 
-                # read the gametime
-                match = re.search('(..):(..)', awayrow.find('td', class_='col_time').text)
-                hours = 12 if int(match.group(1)) == 12 else int(match.group(1)) + 12
-                minutes = int(match.group(2))
-                gtime = time(hours, minutes)
-                gametime = datetime.combine(date, gtime)
-
                 # read the two lines
                 awaylinestr = awayrow.find('td', class_='moneylineodds').text
                 homelinestr = homerow.find('td', class_='moneylineodds').text
@@ -60,7 +53,7 @@ class SportsBettingAg(Scraper):
                     awayline,
                     hometeamstr,
                     homeline,
-                    gametime,
+                    date,
                 ))
 
         return games

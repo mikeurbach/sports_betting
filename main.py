@@ -28,13 +28,13 @@ topbet = TopBetEu(
     
     
 # scrape forever
-scrape = 0
-while True and scrape < 1:
-    print "scrape", scrape
-    sportsbetting.scrape()
-    topbet.scrape()
+scrape_id = 0
+while True and scrape_id < 100:
+    print "scrape", scrape_id
+    sportsbetting.scrape(scrape_id)
+    topbet.scrape(scrape_id)
     time.sleep(normalvariate(5, 1))
-    scrape += 1
+    scrape_id += 1
 
 cursor.close()
 cnx.close()
