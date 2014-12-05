@@ -14,8 +14,8 @@ class Odds:
                    VALUES ({0},{1},
                            {2},{3},{4}, '{5}')'''.format(self.website._id,
                                                          self.game._id,
-                                                         self.awayline,
                                                          self.homeline,
+                                                         self.awayline,
                                                          self.scrape_id,
                                                          self.website.timestamp)
         cursor.execute(query)
