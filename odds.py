@@ -1,5 +1,4 @@
 import numpy as np
-from datetime import datetime
 
 class Odds:
     def __init__(self, website, game, awayline, homeline, cursor, cnx):
@@ -7,7 +6,6 @@ class Odds:
         self.game = game
         self.awayline = awayline
         self.homeline = homeline
-        self.timestamp = datetime.now()
 
         # append to the database, save the time
         query = '''INSERT INTO odds (site_id, game_id,
@@ -17,7 +15,7 @@ class Odds:
                                                     self.game._id,
                                                     awayline,
                                                     homeline,
-                                                    self.timestamp)
+                                                    self.website.timestamp)
         cursor.execute(query)
         cnx.commit()
         self._id = cursor.lastrowid

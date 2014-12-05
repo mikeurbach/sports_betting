@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 class Website:
     def __init__(self, url, cursor, cnx, headers={}, params={}):
@@ -29,6 +30,7 @@ class Website:
 
     def soup(self):
         res = requests.get(self.url, headers=self.headers, params=self.params)
+        self.timestamp = datetime.now()
         return BeautifulSoup(res.text)
 
 
