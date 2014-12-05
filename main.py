@@ -29,7 +29,7 @@ topbet = TopBetEu(
     
 # scrape forever
 scrape = 0
-while True:
+while True and scrape < 1:
     print "scrape", scrape
     sportsbetting.scrape()
     topbet.scrape()

@@ -1,3 +1,4 @@
+import numpy as np
 from datetime import datetime
 
 class Odds:
@@ -28,3 +29,8 @@ class Odds:
                                                       self.homeline,
                                                       self.awayline,
                                                       self.timestamp)
+
+    def pair(self):
+        c = max(self.awayline, self.homeline)
+        d = min(self.awayline, self.homeline)
+        return np.array([c, d])

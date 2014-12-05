@@ -22,3 +22,4 @@ class Scraper:
             # insert the odds
             odds = Odds(self.website, game, awayline, homeline,
                         self.cursor, self.cnx)
+            print odds.pair()
