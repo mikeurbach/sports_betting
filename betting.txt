@@ -1,0 +1,98 @@
+Remote Address:190.242.30.131:80
+Request URL:http://www.sportsbetting.ag/sports/Member/ConfirmBet
+Request Method:POST
+Status Code:200 OK
+Request Headersview source
+Accept:application/json, text/javascript, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.8
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:2078
+Content-Type:application/x-www-form-urlencoded
+Cookie:ASP.NET_SessionId=zz1zxr45tr5ebgngxjx01rvi; BIGipServerSPORTSBETTING.AG=3556903946.20480.0000; AsiSystem=CurrentID=-1&CurrentUserName=; .ASPXAUTH=26B18C0AB7044E479F82C80DE2290A99CD3C9CF3B6B4105590EF6D09E46B0249A60996CDA737A750EE727992DC400D16B92A074AEC53BC6D5491483383495372E78EB209225ECA6A0ABB89E0917F5FC00B40297EB3D3B31BF31A5A0B39EB28249F5EBC3FBA010C59CDDA552B791EC9064A2BDE86; __utma=2835442.1398692288.1416457788.1417763448.1417766060.5; __utmb=2835442.5.10.1417766060; __utmc=2835442; __utmz=2835442.1416457788.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); balance=0.00
+Host:www.sportsbetting.ag
+Origin:http://www.sportsbetting.ag
+Pragma:no-cache
+Referer:http://www.sportsbetting.ag/sports/
+User-Agent:Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36
+X-Requested-With:XMLHttpRequest
+Form Dataview sourceview URL encoded
+jsonStr:{"seq":3,"shwCnfrm":true,"isscs":true,"isbet":false,"tcktno":0,"risk":0,"win":0,"freePlyCrdt":false,"freeplaybal":0,"wgrGrps":[{"intId":0,"configured":true,"wgrType":"straight","type":"upselmain","nbl":true,"wgrs":[{"intId":1,"wgrType":"straight","type":"upselmain","nbl":true,"wgrItms":[{"type":"h2h","selId":"G|Football|NFL|0|POSTUP|.|284185728|M|MLHW|Baltimore Ravens","selObj":{"gt":"G","str":"POSTUP","prf":".","mkt":"M","selTyp":"MLHW","tmId":"Baltimore Ravens","lv1":"Football","lv2":"NFL","prd":0,"gnum":284185728},"a":125,"d":2.25,"h":0,"dh":"","aorg":125,"dorg":2.25,"horg":0,"dhorg":"","av":0,"dv":0,"rno":151,"lv1":"Football","lv2":"NFL","dlv1":"Football","dlv2":"NFL","ftid":"Miami Dolphins","crid":"Foot-NFL Su Baltimore Rav@Miami Dolphin","gnum":284185728,"gmdt":"12/07/2014 13:00:01","ltm":"Baltimore Ravens","rtm":"Miami Dolphins","dltm":"Baltimore Ravens","drtm":"Miami Dolphins","ltmpchr":"","rtmpchr":"","dltmpchr":"","drtmpchr":"","prlres":"A","prd":0,"sts":"I","prvntpntby":false,"seld":"G|Football|NFL|0|POSTUP|.|284185728|M|MLHW|Baltimore Ravens","intId":2,"risk":0,"win":0,"errmsgs":[]}],"win":25,"risk":20,"wgrAmt":0,"frHlfPnt":false,"errmsgs":[]}],"errmsgs":[]}],"instantAction":"","errmsgs":[]}
+Response Headersview source
+Cache-Control:private
+Content-Length:1324
+Content-Type:application/json; charset=utf-8
+Date:Fri, 05 Dec 2014 08:10:38 GMT
+ETag:""
+Server:Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_ssl/2.2.9 OpenSSL/0.9.8g Mod-Mono/2.2
+X-AspNet-Version:2.0.50727
+X-AspNetMvc-Version:1.0
+X-Powered-By:ASP.NET
+
+actionAlertComplete: true
+actionAlertId: 221579750
+actionAlertSession: "7b0a71db-589d-4423-9e36-ccde9800ba55"
+errmsgs: []
+freePlyCrdt: false
+isbet: false
+isrebet: false
+isscs: true
+risk: 20
+seq: 3
+shwCnfrm: true
+tcktno: 0
+tweeText: ""
+wgrGrps: [{intId: 0, wgrType: "straight", type: "upselmain", nbl: true, configured: true,…}]
+win: 25
+
+---
+
+Remote Address:190.242.30.131:80
+Request URL:http://www.sportsbetting.ag/sports/Member/PlaceBet
+Request Method:POST
+Status Code:200 OK
+Request Headersview source
+Accept:application/json, text/javascript, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.8
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:2249
+Content-Type:application/x-www-form-urlencoded
+Cookie:ASP.NET_SessionId=zz1zxr45tr5ebgngxjx01rvi; BIGipServerSPORTSBETTING.AG=3556903946.20480.0000; AsiSystem=CurrentID=-1&CurrentUserName=; .ASPXAUTH=26B18C0AB7044E479F82C80DE2290A99CD3C9CF3B6B4105590EF6D09E46B0249A60996CDA737A750EE727992DC400D16B92A074AEC53BC6D5491483383495372E78EB209225ECA6A0ABB89E0917F5FC00B40297EB3D3B31BF31A5A0B39EB28249F5EBC3FBA010C59CDDA552B791EC9064A2BDE86; __utma=2835442.1398692288.1416457788.1417763448.1417766060.5; __utmb=2835442.5.10.1417766060; __utmc=2835442; __utmz=2835442.1416457788.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); balance=0.00
+Host:www.sportsbetting.ag
+Origin:http://www.sportsbetting.ag
+Pragma:no-cache
+Referer:http://www.sportsbetting.ag/sports/
+User-Agent:Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36
+X-Requested-With:XMLHttpRequest
+Form Dataview sourceview URL encoded
+jsonStr:{"seq":3,"shwCnfrm":true,"isscs":true,"isbet":false,"tcktno":0,"risk":20,"win":25,"actionAlertSession":"7b0a71db-589d-4423-9e36-ccde9800ba55","actionAlertId":221579750,"actionAlertComplete":true,"freePlyCrdt":false,"tweeText":"","isrebet":false,"wgrGrps":[{"intId":0,"wgrType":"straight","type":"upselmain","nbl":true,"configured":true,"wgrs":[{"intId":1,"wgrType":"straight","type":"upselmain","nbl":true,"win":25,"risk":20,"ttlrisk":20,"wgrAmt":0,"wagerselectionchoice":"","wagerselectionchoicename":"","rrcomb":0,"frHlfPnt":false,"wgrItms":[{"type":"h2h","intId":2,"selid":"Baltimore Ravens","selObj":{"gt":"G","lv1":"Football","lv2":"NFL","prd":0,"gnum":284185728,"str":"POSTUP","prf":".","mkt":"M","selTyp":"MLHW","tmId":"Baltimore Ravens"},"lv1":"Football","lv2":"NFL","dlv1":"Football","dlv2":"NFL","crid":"Foot-NFL Su Baltimore Rav@Miami Dolphin","gmdt":"12/07/2014 13:00:01","prd":0,"sts":"I","prvntpntby":false,"risk":20,"win":25,"ftid":"Miami Dolphins","ltm":"Baltimore Ravens","rtm":"Miami Dolphins","dltm":"Baltimore Ravens","drtm":"Miami Dolphins","cntstnm":"","dcntstnm":"","dnm":"","ltmpchr":"","rtmpchr":"","dltmpchr":"","drtmpchr":"","pchrcond":{},"prlres":"A","a":125,"d":2.25,"h":0,"dh":"","av":0,"dv":0,"aorg":125,"dorg":2.25,"horg":0,"dhorg":"","rno":151,"errmsgs":[]}],"errmsgs":[]}]}],"errmsgs":[],"confirm":true}
+Response Headersview source
+Cache-Control:private
+Content-Length:1430
+Content-Type:application/json; charset=utf-8
+Date:Fri, 05 Dec 2014 08:10:46 GMT
+ETag:""
+Server:Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_ssl/2.2.9 OpenSSL/0.9.8g Mod-Mono/2.2
+X-AspNet-Version:2.0.50727
+X-AspNetMvc-Version:1.0
+X-Powered-By:ASP.NET
+
+actionAlertComplete: false
+actionAlertId: 221579750
+actionAlertSession: "7b0a71db-589d-4423-9e36-ccde9800ba55"
+errmsgs: []
+freePlyCrdt: false
+isbet: true
+isrebet: false
+isscs: true
+risk: 20
+seq: 3
+shwCnfrm: true
+tcktno: 284526914
+tweeText: "
+↵I&#39;ve got my money on [teamSelected] in NFL Football. www.Sportsbetting.ag %23Sportsbetting"
+wgrGrps: [{intId: 0, wgrType: "straight", type: "upselmain", nbl: true, configured: true,…}]
+win: 25
