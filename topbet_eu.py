@@ -24,8 +24,8 @@ class TopBetEu(Scraper):
 
             # read the teams
             match = re.search('(\w.+) at (\w.+) ', header)
-            awayteamstr = re.sub('-.+', '', match.group(1)).replace('.', '%')
-            hometeamstr = re.sub('-.+', '', match.group(2)).replace('.', '%')
+            awayteamstr = re.sub('-.+', '', match.group(1).replace('-N','').replace('-A','')).replace('.', '%')
+            hometeamstr = re.sub('-.+', '', match.group(2).replace('-N','').replace('-A','')).replace('.', '%')
 
             # read the gametime
             match = re.search('(....)-(..)-(..)\s+(..):(..)', header)
