@@ -8,6 +8,7 @@ class Scraper:
         games = self.parse()
 
         # for each game
+        output = {}
         for game in games:
             awayteamstr, awayline, hometeamstr, homeline, gametime = game
 
@@ -22,3 +23,8 @@ class Scraper:
             # insert the odds
             odds = Odds(self.website, game, awayline, homeline, scrape_id,
                         self.cursor, self.cnx)
+
+            # save the pair into our output
+            output[game._id] = odds.pair()
+
+        return output

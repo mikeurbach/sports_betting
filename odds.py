@@ -32,6 +32,4 @@ class Odds:
                                                           self.scrape_id)
 
     def pair(self):
-        c = max(self.awayline, self.homeline)
-        d = min(self.awayline, self.homeline)
-        return np.array([c, d])
+        return np.array([self.awayline, self.homeline])
