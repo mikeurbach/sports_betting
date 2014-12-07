@@ -42,8 +42,8 @@ class SportsBettingAg(Scraper):
 
                 # if they were empty
                 if awaylinestr == '' and homelinestr == '':
-                    awaylinestr = u'-100'
-                    homelinestr = u'+100'
+                    awaylinestr = u'-10000'
+                    homelinestr = u'-10000'
 
                 awayline = int(awaylinestr)
                 homeline = int(homelinestr)
