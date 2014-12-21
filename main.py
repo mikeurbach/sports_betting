@@ -1,6 +1,7 @@
 import time
 import mysql.connector
 from random import normalvariate
+from datetime import datetime
 from arbitrage import Arbitrage
 from sportsbetting_ag import SportsBettingAg
 from topbet_eu import TopBetEu
@@ -31,10 +32,13 @@ scrapers.append(TopBetEu(
 # scrape forever
 scrape_id = 0
 while True:
+    # set a timestamp
+    timestamp = datetime.now()
+
     # get lines from each site
     lines = {}
     for scraper in scrapers:
-        lines[scraper.website] = scraper.scrape(scrape_id)
+        lines[scraper.website] = scraper.scrape(scrape_id, timestamp)
 
     # look for arbitrage
     arbitrage = Arbitrage(lines)

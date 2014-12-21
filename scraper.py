@@ -3,7 +3,7 @@ from team import Team
 from odds import Odds
 
 class Scraper:
-    def scrape(self, scrape_id):
+    def scrape(self, scrape_id, timestamp):
         # parse the html
         games = self.parse()
 
@@ -21,7 +21,7 @@ class Scraper:
                         self.cursor, self.cnx)
 
             # insert the odds
-            odds = Odds(self.website, game, awayline, homeline, scrape_id,
+            odds = Odds(self.website, game, awayline, homeline, scrape_id, timestamp,
                         self.cursor, self.cnx)
 
             # save the pair into our output

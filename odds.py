@@ -1,7 +1,7 @@
 import numpy as np
 
 class Odds:
-    def __init__(self, website, game, awayline, homeline, scrape_id, cursor, cnx):
+    def __init__(self, website, game, awayline, homeline, scrape_id, timestamp, cursor, cnx):
         self.website = website
         self.game = game
         self.awayline = awayline
@@ -12,12 +12,12 @@ class Odds:
         query = '''INSERT INTO odds (site_id, game_id,
                                      home_line, away_line, scrape_id, timestamp)
                    VALUES ({0},{1},
-                           {2},{3},{4}, '{5}')'''.format(self.website._id,
+                           {2},{3},{4},'{5}')'''.format(self.website._id,
                                                          self.game._id,
                                                          self.homeline,
                                                          self.awayline,
                                                          self.scrape_id,
-                                                         self.website.timestamp)
+                                                         timestamp)
         cursor.execute(query)
         cnx.commit()
         self._id = cursor.lastrowid
@@ -28,8 +28,8 @@ class Odds:
                                                           self.game._id,
                                                           self.homeline,
                                                           self.awayline,
-                                                          self.timestamp,
-                                                          self.scrape_id)
+                                                          self.scrape_id,
+                                                          timestamp)
 
     def pair(self):
         return np.array([self.awayline, self.homeline])
