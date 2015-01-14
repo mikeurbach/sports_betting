@@ -5,12 +5,12 @@ from random import normalvariate
 from arbitrage import Arbitrage
 from scraper import Scraper
 
-# initialize the database and scraper
+# initialize the database, games, and scraper
 cnx = mysql.connector.connect(user='root',
                                    password='Q!w2E#r4',
                                    database='sports_betting')
 cursor = cnx.cursor()
-scraper = Scraper("sites.csv", cnx, cursor)
+scraper = Scraper("sites.csv", "games.csv", cnx, cursor)
     
 # scrape forever
 while True and scraper.scrape_id < 2:

@@ -11,7 +11,7 @@ class Pinnacle:
         self.headers = headers
         self.cnx = cnx
         self.cursor = cursor
-        self.website = Website(url, headers, params, cursor, cnx)
+        self.website = Website(url, params, headers, cursor, cnx)
 
     def parse(self):
         print 'parsing:', str(self)
@@ -54,11 +54,11 @@ class Pinnacle:
         for date in gametuples:
             for linerowa, linerowb, draw in gametuples[date]:
                 # get the datetime
-                timeline = linerowb.select('td')[0].text
-                match = re.search('(\d\d):(\d\d) ((A|P)M)', timeline)
-                timestr = match.group(0)
-                timeobj = datetime.datetime.strptime(timestr, '%I:%M %p').time()
-                datetimeobj = datetime.datetime.combine(date, timeobj)
+                # timeline = linerowb.select('td')[0].text
+                # match = re.search('(\d\d):(\d\d) ((A|P)M)', timeline)
+                # timestr = match.group(0)
+                # timeobj = datetime.datetime.strptime(timestr, '%I:%M %p').time()
+                # datetimeobj = datetime.datetime.combine(date, timeobj)
                 
                 # get the lines
                 lineaname = linerowa.select('.linesTeam')[0].text
@@ -67,7 +67,7 @@ class Pinnacle:
                 linebline = float(linerowb.select('.linesMLine')[0].text)
                 drawline = float(draw.select('.linesMLine')[0].text)
                 
-                lines.append((lineaname, linealine, linebname, linebline, drawline))
+                lines.append((lineaname, linealine, linebname, linebline, drawline, date))
 
         return lines
 

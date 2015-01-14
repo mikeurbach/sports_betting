@@ -10,7 +10,7 @@ class TopBetEu:
         self.headers = headers
         self.cnx = cnx
         self.cursor = cursor
-        self.website = Website(url, headers, params, cursor, cnx)
+        self.website = Website(url, params, headers, cursor, cnx)
 
     def parse(self):
         # get the webpage soup
