@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 class Website:
-    def __init__(self, url, cursor, cnx, headers={}, params={}):
+    def __init__(self, url, headers, params, cursor, cnx):
         #self._id = 1 # just until we have more site
-        self.url = url
+        self.url = url.strip()
         self.headers = headers
         self.params = params
 
@@ -26,7 +26,9 @@ class Website:
             self.url = result[1]
 
     def __repr__(self):
-        return "Website({0})".format(self.url)
+        return "Website({0},{1},{2})".format(self.url,
+                                             self.headers,
+                                             self.params)
 
     def soup(self):
         res = requests.get(self.url, headers=self.headers, params=self.params)

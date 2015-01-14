@@ -1,16 +1,16 @@
 import re
-from scraper import Scraper
 from website import Website
 from datetime import time, datetime
 from time import strptime, mktime
 
-class SportsBettingAg(Scraper):
-    def __init__(self, url, cnx, cursor, headers={}, params={}):
+class SportsBettingAg:
+    def __init__(self, url, headers, params, cnx, cursor):
         self.url = url
+        self.params = params
+        self.headers = headers
         self.cnx = cnx
         self.cursor = cursor
-        self.website = Website(url, cursor, cnx, 
-                               headers=headers, params=params)
+        self.website = Website(url, headers, params, cursor, cnx)
 
     def parse(self):
         # get the webpage soup
@@ -57,3 +57,9 @@ class SportsBettingAg(Scraper):
                 ))
 
         return games
+
+    def __repr__(self):
+        return '{0}({1},{2},{3})'.format(self.__class__.__name__,
+                                         self.url,
+                                         self.params,
+                                         self.headers)
