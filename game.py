@@ -1,9 +1,14 @@
 from time import mktime
 
 class Game:
-    def __init__(self, datetime, awayteam, hometeam, cursor, cnx):
-        self.awayteam = awayteam
-        self.hometeam = hometeam
+    def __init__(self, datetime, teama, teamb, cursor, cnx):
+        # away team is one that python lexicographically sorts first
+        if teama < teamb:
+            self.awayteam = teama
+            self.hometeam = teamb
+        else:
+            self.awayteam = teamb
+            self.hometeam = teama
 
         # look up this game or create it
         query = '''SELECT game_id, date FROM game
