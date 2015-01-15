@@ -1,7 +1,7 @@
 class Team:
     def __init__(self, namestr, cursor, cnx):
         # look up this team or create it
-        namestr = namestr.strip().replace("'", "\\\'")
+        namestr = namestr.strip().replace("'", "''")
         query = '''SELECT * FROM team
                    WHERE team_name='{0}'
                    LIMIT 1'''.format(namestr)

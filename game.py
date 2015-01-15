@@ -2,8 +2,8 @@ from time import mktime
 
 class Game:
     def __init__(self, datetime, teama, teamb, cursor, cnx):
-        # away team is one that python lexicographically sorts first
-        if teama < teamb:
+        # away team is one whose name python lexicographically sorts first
+        if teama.name < teamb.name:
             self.awayteam = teama
             self.hometeam = teamb
         else:
@@ -24,9 +24,9 @@ class Game:
             query = '''INSERT INTO game (date, away_id, away_team, home_id, home_team)
                        VALUES ('{0}',{1},'{2}',{3},'{4}')'''.format(datetime,
                                                                     self.awayteam._id,
-                                                                    self.awayteam.name,
+                                                                    self.awayteam.name.replace("'", "''"),
                                                                     self.hometeam._id,
-                                                                    self.hometeam.name)
+                                                                    self.hometeam.name.replace("'", "''"))
             cursor.execute(query)
             cnx.commit()
             self._id = cursor.lastrowid
