@@ -16,7 +16,7 @@ class Scraper:
     def __init__(self, sitesfile, gamesfile, cnx, cursor):
         self.scrape_id = 1
         self.scrapers = []
-        self.games = set()
+        self.games = {}
         self.cnx = cnx
         self.cursor = cursor
 
@@ -37,11 +37,12 @@ class Scraper:
             for line in f:
                 datestr, teamastr, teambstr = line.split(',')
                 date = datetime.strptime(datestr, '%d-%b').replace(2015)
-                teama = Team(teamastr, self.cursor, self.cnx)
-                teamb = Team(teambstr, self.cursor, self.cnx)
-                self.games.add(Game(date, teama, teamb, self.cursor, self.cnx))
+                teama = Team(teamastr, False, self.cursor, self.cnx)
+                teamb = Team(teambstr, False, self.cursor, self.cnx)
+                game = Game(date, teama, teamb, False, self.cursor, self.cnx)
+                self.games[game] = game
 
-        print 'games:', str(self.games)
+        print 'games:', str(self.games.items())
 
     def scrape(self):
         timestamp = datetime.now()
@@ -54,15 +55,30 @@ class Scraper:
 
             # for each game
             for game in games:
-                awayteamstr, awayline, hometeamstr, homeline, drawline, gametime = game
+                teamaname, teamaline, teambname, teambline, drawline, gametime = game
+                teama = Team(teamaname, True, self.cursor, self.cnx)
+                teamb = Team(teambname, True, self.cursor, self.cnx)
 
                 # look for this game in our set
+                testgame = Game(gametime, teama, teamb, True, self.cursor, self.cnx)
+                if testgame in self.games:
+                    # get the real game, since its _id is needed
+                    realgame = self.games[testgame]
 
-                # insert the odds
-                #odds = Odds(scraper.website, game, awayline, homeline, self.scrape_id, timestamp, scraper.cursor, scraper.cnx)
+                    # teams could have been sorted
+                    if realgame.awayteam.name == teamaname:
+                        awayline = teamaline
+                        homeline = teambline
+                    else:
+                        awayline = teambline
+                        homeline = teamaline
 
-                # save the pair into our output
-                #output[game._id] = odds.pair()
+                    # insert the odds
+                    odds = Odds(scraper.website, realgame, awayline, homeline, drawline, self.scrape_id, timestamp, scraper.cursor, scraper.cnx)
+
+                    # save the pair into our output
+                    # TODO: use the book table
+                    output[realgame._id] = odds.lines()
 
         # increment scrape id
         self.scrape_id += 1

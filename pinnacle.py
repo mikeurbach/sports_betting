@@ -27,7 +27,7 @@ class Pinnacle:
         for table in tables:
             # get the date for this table
             datestr = table.select('.linesHeader')[0].find('h4').text
-            match = re.search('(\d{0,1})/(\d{2})', datestr)
+            match = re.search('(\d{0,2})/(\d{0,2})', datestr)
             month = int(match.group(1))
             day = int(match.group(2))
             date = datetime.date(2015, month, day)
@@ -53,21 +53,14 @@ class Pinnacle:
         lines = []
         for date in gametuples:
             for linerowa, linerowb, draw in gametuples[date]:
-                # get the datetime
-                # timeline = linerowb.select('td')[0].text
-                # match = re.search('(\d\d):(\d\d) ((A|P)M)', timeline)
-                # timestr = match.group(0)
-                # timeobj = datetime.datetime.strptime(timestr, '%I:%M %p').time()
-                # datetimeobj = datetime.datetime.combine(date, timeobj)
-                
                 # get the lines
                 lineaname = linerowa.select('.linesTeam')[0].text
                 linebname = linerowb.select('.linesTeam')[0].text
-                linealine = float(linerowa.select('.linesMLine')[0].text)
-                linebline = float(linerowb.select('.linesMLine')[0].text)
-                drawline = float(draw.select('.linesMLine')[0].text)
+                linealine = float(linerowa.select('.linesMLine')[0].text or -1)
+                linebline = float(linerowb.select('.linesMLine')[0].text or -1)
+                drawline = float(draw.select('.linesMLine')[0].text or -1)
                 
-                lines.append((lineaname, linealine, linebname, linebline, drawline, date))
+                lines.append((lineaname, linealine, linebname, linebline, drawline, datetime.datetime.combine(date, datetime.time())))
 
         return lines
 
