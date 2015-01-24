@@ -13,7 +13,7 @@ cursor = cnx.cursor()
 scraper = Scraper("sites.csv", "games.csv", cnx, cursor)
     
 # scrape forever
-while True and scraper.scrape_id < 2:
+while True:
     print 'scrape:', str(scraper.scrape_id)
 
     # get lines from each site
